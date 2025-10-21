@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgotten - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I am sitting in a corner sipping a neat gin, wondering why am I doing that? It is very unlike me. I scan through the crowds to see if I can spot a counter wi...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Forgotten</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-22T03:08:24+00:00">
+                January 22, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/forgotten.jpg" alt="Forgotten" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I am sitting in a corner sipping a neat gin, wondering why am I doing that? It is very unlike me. I scan through the crowds to see if I can spot a counter with tonic or ginger ale. And then I spot her, standing with her arms around another man. Grinning and laughing heartily. For a moment I am ecstatic to see her and then my heart sinks. Unsure if I want to meet her when she is with someone, I am wishing that she doesn’t see me. Before she does, I should find my way out of this crowd and find myself some quiet.  But right at that moment I see she is moving her gaze through the crowd. She looks at me as then continues to look across. I am puzzled and I back look at her. Once in a while I catch a sideward glance towards me but otherwise I see no sign of recognition. I feel heartbroken.</p>
+
+<p>And then I am standing in a registration office. For registration of a land that I am planning to buy. There is a seller who is coming to sell the land. I see the papers and I realise that she is the seller. Before I am able to do anything she walks in. We exchange Hellos like two acquaintances and get on with the work. I drill down into her eyes to see if there is an hidden emotion. But I don’t find it. And it breaks by heart once again.</p>
+
+<p>Knowing that I was forgotten about was very lonely even if only in a dream. I don’t know how else I was to feel about it. I asked for this, I wished her to be happy and to move on. And then the thought of it is unbearable. My mind is full of paradoxes.</p>
+
+<p>I don’t know what my mind is upto. Maybe it is cautioning me, warning me of a possible future or just testing me to see if I am ready for this. Replaying this in different ways in my dreams.</p>
+
+<p>I know the pain to see someone you love with another person is far more than to see them alone, but I think I am willing to bear it. I asked for this, so it is just unfair to hope that this doesn’t become my reality. And I think mind is just preparing me for it. For it knows that, that is where my great filter lies.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/21/recovery/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Recovery</h3>
+            <p class="post-nav-excerpt">I fell asleep last night putting kids to sleep. The night was plagued with broken sleep, distant dreams and swirling...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/22/swirl/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Swirl</h3>
+            <p class="post-nav-excerpt">Mind swimming in the pool of memories downing all emotions with an alluring swill relapsing and reliving the moments bygone...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

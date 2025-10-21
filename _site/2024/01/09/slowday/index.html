@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slow day - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I just finished lunch. Came back to my work desk. My next meeting is 30 minutes away. As I look for ways to fill these 30 minutes, I mindlessly scroll my pho...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Slow day</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-09T07:00:00+00:00">
+                January 09, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/slowday.jpeg" alt="Slow day" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I just finished lunch. Came back to my work desk. My next meeting is 30 minutes away. As I look for ways to fill these 30 minutes, I mindlessly scroll my phone. There is nothing to engage me. There are no messages. There is no one checking in. And that just made me feel alone.</p>
+
+<p>I had a plan to stay at a hotel by myself for a weekend. I asked my wife to accompany me, thinking that I complain that we don’t spend enough time by ourselves. And next thing she did was to include kids in the plan. So that weekend has now gone from me time to us time to kids time.</p>
+
+<p>Sometimes I feel sad that no one really gets me. Even if they say that they understand what I am going through, their actions reflect that I am just being dramatic or overreacting.</p>
+
+<p>This feeling of being alone in my journey just exhausts me. The only thing more exhausting is dealing with other people and their hearts and trying to safeguard them and myself, all at the same time. While in these moments I feel down and out, in bigger picture I choose this mediocre happiness over oscillation between deep sense of guilt and euphoria.</p>
+
+<p>I woke up thinking today what is my deeply rooted need to be liked, be non judgemental, be rational and come across as fair? Who set these expectations for me? I realised that these are only perceived qualities of a good human being but there is no expectation governing me to be “good”. Not going to act on it, but it became clear that I have made that choice, subconsciously.</p>
+
+<p>In the process I continue to ignore myself. How can I complain about others not caring about me when I am not willing to do that myself.</p>
+
+<p>Maybe this will pass. I hope it does.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/08/empty/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Empty</h3>
+            <p class="post-nav-excerpt">Peering into my soul, I see it suspended emotionless in a corner. As if it has been wrung dry of...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/09/choices/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Choices</h3>
+            <p class="post-nav-excerpt">Watching this series and out of nowhere pops this gem.
+</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

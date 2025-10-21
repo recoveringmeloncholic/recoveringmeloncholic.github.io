@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inequality - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="There was always a certain inequality in the relationship. In my attempt to be a glassfrog I have created an inlet for the others to peep-in without being of...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Inequality</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-28T19:31:26+00:00">
+                January 28, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/inequality.jpeg" alt="Inequality" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>There was always a certain inequality in the relationship. In my attempt to be a glassfrog I have created an inlet for the others to peep-in without being offered that luxury in return. Second guessing how someone I care about is doing, is hard. I end up projecting my current mood. Which can vary wildly with the time of the day. In absence of knowledge I assume the worst and do what I think I must.</p>
+
+<p>Do I have the right to feel upset about the fact that someone has access to what I am thinking when I have chosen to put it out in the public domain? Is it fair to expect similar access to the most intimate thoughts in return? I don’t think so. That’s not how the realm of internet works. You write something and it is for the world to consume. You want something truly private then you ring-fence it with everything you can.</p>
+
+<p>So now I am wondering, where does all of this lie? Is it personal and to be guarded or is it public and I should not fret about it. I have never censored what I have to say in the past.  But then I have also not had a situation where the subject of the writing has been a spectator and reader as well.</p>
+
+<p>Now I have accountability for what I say. These words are not just words anymore. They have power to hurt and be consequential. They represent a version of truth. And they are irreversible.</p>
+
+<p>Has this place outgrown its purpose? Or is it time for it to be a private journal for just my consumption, forever; despite the fact that lot of people have signed up to read it in last few weeks? Or should I be indifferent to how these words affect someone?</p>
+
+<p>A question that is possibly better answered in the waking moments of a morning than the drowning darkness of the setting night.</p>
+
+<blockquote>
+  <p>Tomorrow might bring the answers we seek</p>
+</blockquote>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/28/not-waving-but-drowning/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Not waving but drowning</h3>
+            <p class="post-nav-excerpt">Nobody heard him, the dead man, But still he lay moaning: I was much further out than you thought And...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/29/rare/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Rare</h3>
+            <p class="post-nav-excerpt">
+  If we do not listen to our convictions, they might haunt us for rest of our lives.
+
+</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

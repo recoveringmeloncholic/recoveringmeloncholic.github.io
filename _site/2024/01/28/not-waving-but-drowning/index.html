@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not waving but drowning - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="  Nobody heard him, the dead man,But still he lay moaning:I was much further out than you thoughtAnd not waving but drowning.Poor chap, he always loved larki...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Not waving but drowning</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-28T18:51:24+00:00">
+                January 28, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/wavingbutdrowning.jpeg" alt="Not waving but drowning" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <blockquote>
+  <p>Nobody heard him, the dead man,<br />
+But still he lay moaning:<br />
+I was much further out than you thought<br />
+And not waving but drowning.<br />
+Poor chap, he always loved larking<br />
+And now he’s dead<br />
+It must have been too cold for him his heart gave way,<br />
+They said.<br />
+Oh, no no no, it was too cold always<br />
+(Still the dead one lay moaning)<br />
+I was much too far out all my life<br />
+And not waving but drowning.<br />
+~ Stevie Smith<br /></p>
+</blockquote>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/28/dashed-hopes/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Dashed hopes</h3>
+            <p class="post-nav-excerpt">I stood there, watching the dust cloud settle as the little remaining joy in my life drove into the sunset....</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/28/inequality/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Inequality</h3>
+            <p class="post-nav-excerpt">There was always a certain inequality in the relationship. In my attempt to be a glassfrog I have created an...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

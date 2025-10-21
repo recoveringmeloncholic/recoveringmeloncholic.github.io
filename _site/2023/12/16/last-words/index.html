@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Words - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="It was the end of the road for her. She had known that for a while, I knew it only in that moment. She had slipped away and continued to go further with ever...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Last Words</h1>
+        <div class="post-meta">
+            <time datetime="2023-12-16T06:00:00+00:00">
+                December 16, 2023
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/lastwords.jpeg" alt="Last Words" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>It was the end of the road for her. She had known that for a while, I knew it only in that moment. She had slipped away and continued to go further with every passing moment. The machines continued to whirr and beep. The mouth lay half open and eyes shut. Chest rising and falling down as air continued to flush her lungs. I wasn’t sure if she could hear me. In that moment I decided that I didn’t not want to regret never having said those words to her while I still had the chance.</p>
+
+<p>I told her that I was sorry for everything that happened in her life. The fact that she fought for her kids relentlessly. She was the strongest person I knew. I was sorry that things didn’t turn out how she wanted them to. That I loved her and was going to miss her. And that kids would miss her terribly. And that I am here with her.</p>
+
+<p>I held her hand and kissed her on her forehead. This was the most affection I had shown her in decades. And I only hoped that moment, she could hear me and feel me.</p>
+
+<p>I miss you. I hope you are at peace finally.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2023/12/14/free/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Free</h3>
+            <p class="post-nav-excerpt">The space that separates us space that surrounds me has me huddled in a corner when it was suppose to...</p>
+        </a>
+        
+
+        
+        <a href="/2023/12/19/alone/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Alone</h3>
+            <p class="post-nav-excerpt">The eerie quiet around me unnatural and unknown I managed to wither myself free into the freedom of being alone...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

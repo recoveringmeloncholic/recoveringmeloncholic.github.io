@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beats - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I lie in this bed unable to walk. And a single song runs on a loop. She asked me if the songs with faster beats make me feel better?">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Beats</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-26T18:18:04+00:00">
+                January 26, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/beats.jpg" alt="Beats" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I lie in this bed unable to walk. And a single song runs on a loop. She asked me if the songs with faster beats make me feel better?</p>
+
+<p>In reality, beats just drown the thoughts out. They make it easy to release the pent up emotions. Beats take the focus away from the tears running down the face to agreeable head shaking that fools the mind into thinking that my body is somehow feeling different than my heart.</p>
+
+<p>And so tonight is owned by this song that is underpinned by beats and tempo. While my mind is navigating the noise of memories.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/26/slow-down/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Slow down</h3>
+            <p class="post-nav-excerpt">There is nowhere I need to be. There is no one waiting for me. There is nothing I hope to...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/28/hope-and-rejection/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Hope and rejection</h3>
+            <p class="post-nav-excerpt">I have been feeling guilty, and so I know I did something wrong. It is simply cruel to scratch the...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

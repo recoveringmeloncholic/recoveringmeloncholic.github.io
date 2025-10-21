@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                {{ page.date | date: "%B %d, %Y" }}
+            </time>
+        </div>
+    </header>
+
+    {% if page.image %}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="post-featured-image">
+    {% endif %}
+
+    <div class="post-body">
+        {{ content }}
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        {% if page.previous.url %}
+        <a href="{{ page.previous.url | relative_url }}" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">{{ page.previous.title }}</h3>
+            <p class="post-nav-excerpt">{{ page.previous.excerpt | strip_html | truncatewords: 20 }}</p>
+        </a>
+        {% else %}
+        <div class="post-nav-item post-nav-empty"></div>
+        {% endif %}
+
+        {% if page.next.url %}
+        <a href="{{ page.next.url | relative_url }}" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">{{ page.next.title }}</h3>
+            <p class="post-nav-excerpt">{{ page.next.excerpt | strip_html | truncatewords: 20 }}</p>
+        </a>
+        {% else %}
+        <div class="post-nav-item post-nav-empty"></div>
+        {% endif %}
+    </div>
+</nav>

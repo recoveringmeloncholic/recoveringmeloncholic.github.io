@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pieces - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="It feels like I am embarking on this steep climb ahead of me, alone. It is dark and desolated. There is haunting music echoing around. Every time I wish for ...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Pieces</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-09T20:00:00+00:00">
+                January 09, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/pieces.jpeg" alt="Pieces" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>It feels like I am embarking on this steep climb ahead of me, alone. It is dark and desolated. There is haunting music echoing around. Every time I wish for company of people who should be here with me, my mind cautions me against that. It reminds me the agony and angst it will bring and that I am better off alone. It feels like a conditioning exercise. Where the residual pain in my heart is guiding my mind and my survival instincts to kick in. All they are doing is making me even more of a recluse than I was before.</p>
+
+<p>But the quiet around me is unbearable. Earlier my nights slipped away unknowingly every day, and now I have to work hard for each passing second. What happened? How did I get to this point? Will I ever get out of this emotional maze?</p>
+
+<p>A simple message sent into void is giving me so much heartache. I have this perpetual ache in center of my chest.</p>
+
+<p>Today I am in broken in pieces. But I know people who love me would want me to gather myself and put it all back together. So as much as I hate it, thats what I am going to do. My rescuer today is music and I’ll cling to it until I fall asleep.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/09/choices/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Choices</h3>
+            <p class="post-nav-excerpt">Watching this series and out of nowhere pops this gem.
+</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/10/dreams/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Dreams</h3>
+            <p class="post-nav-excerpt">I think we dream so we don’t have to be apart for so long. If we’re in each other’s dreams,...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

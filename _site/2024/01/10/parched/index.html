@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parched - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I am craving a drink. To drown these feelings and the loneliness that night brings everyday. Acutely aware that this is where path to self destruction begins.">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Parched</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-10T07:00:00+00:00">
+                January 10, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/parched.png" alt="Parched" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I am craving a drink. To drown these feelings and the loneliness that night brings everyday. Acutely aware that this is where path to self destruction begins.</p>
+
+<p>I can taste it on my tongue, feel it dull my senses and relieve this ache that perennially plagues me. She won’t approve. But if she had a say in it then it would also be redundant.</p>
+
+<p>I know I’ll possibly be blamed for the circumstances. Thats fine. I don’t mind accountability of my actions. I know why I am here. It may look like a maze of decisions, but the path I was on, was always going to lead me here. One way or another. I know it.</p>
+
+<p>The taste of elixir on the tongue, the numbness that you immediately feel. A spiced concoction with an icy cold texture. Swirling in your mouth before it traverses down your body diffusing itself into the bloodstream. The mind slows down, the time speeds up. And a senile smile takes over parched lips. It sits with you in this dark corner like a loyal companion who will whisper in ear all these things that a sober mind is unable to conjure.</p>
+
+<p>I am romanticising my tete-e-tete with a glass of whiskey. It seems to be calling me. The question is whether I’ll answer.</p>
+
+<p>Only tomorrow will tell.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/10/otherside/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Other side</h3>
+            <p class="post-nav-excerpt">I have a feeling that I am drowning getting swept away with the flow of tide this life lost in...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/11/grief/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Grief</h3>
+            <p class="post-nav-excerpt">Am I not allowed to take a pause and grieve loss of love? People around me, my mind, my life...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

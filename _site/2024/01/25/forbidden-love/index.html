@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forbidden love - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I spent a big part of last two decades wandering alone in these dark alleys of my mind. Reminding myself that I am alone and there is nothing more difficult ...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Forbidden love</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-25T12:54:32+00:00">
+                January 25, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/forbiddenlove.png" alt="Forbidden love" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I spent a big part of last two decades wandering alone in these dark alleys of my mind. Reminding myself that I am alone and there is nothing more difficult than to not have someone by your side to hold you when you need it. A decade and half later I have realised that I was wrong.</p>
+
+<p>Having someone by your side, who is forbidden in some sense, is harder. Knowing that want to hold you and convincing yourself that it is not morally right or allowed is exponentially harder. It is almost heart crushing. Somewhat similar to being stranded on an island waiting to be rescued. And then watching a ship go by without doing anything because your situation would prevent you from hailing the help that is available. Right there. In front of you.</p>
+
+<blockquote>
+  <p>Fading warmth of an embrace<br />
+now, just a fond memory of a time<br />
+eyes brimming with love and longing<br />
+simple love , that somehow felt like a crime<br /></p>
+</blockquote>
+
+<p>Today evening, the floodgates have opened and a lot of feelings have come in rushing back. As if the mind has given itself the permission to feel everything that it had been bottling up for past few days now.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/25/sinking/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Sinking</h3>
+            <p class="post-nav-excerpt">I am starting to see my cycles. Emotions, being stoic and then relapsing into unhealthy eating and drinking and then...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/25/crisis/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Crisis</h3>
+            <p class="post-nav-excerpt">And just like that I am spiralling down. The great filter is here.
+</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

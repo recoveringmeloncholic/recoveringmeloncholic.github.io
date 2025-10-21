@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<header class="hero-section">
+    <div class="hero-content">
+        <h1 class="hero-title">{{ site.title }}</h1>
+        <p class="hero-description">{{ site.description }}</p>
+    </div>
+</header>
+
+<main class="site-main">
+    <div class="post-feed">
+        {% for post in site.posts %}
+        {% assign isEven = forloop.index | modulo: 2 %}
+        <article class="post-card {% if isEven == 0 %}post-card-reverse{% endif %}">
+            <a href="{{ post.url | relative_url }}" class="post-card-image-link">
+                {% if post.image %}
+                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image">
+                {% endif %}
+            </a>
+            <div class="post-card-content">
+                <a href="{{ post.url | relative_url }}" class="post-card-content-link">
+                    <header class="post-card-header">
+                        <h2 class="post-card-title">{{ post.title }}</h2>
+                    </header>
+                    <p class="post-card-excerpt">
+                        {{ post.excerpt | strip_html | truncatewords: 30 }}
+                    </p>
+                    <footer class="post-card-meta">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">
+                            {{ post.date | date: "%b %d, %Y" }}
+                        </time>
+                        <span class="reading-time">• 1 min read</span>
+                    </footer>
+                </a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Newer</a>
+        {% else %}
+        <span>&laquo; Newer</span>
+        {% endif %}
+
+        <span class="current">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}">Older &raquo;</a>
+        {% else %}
+        <span>Older &raquo;</span>
+        {% endif %}
+    </div>
+    {% endif %}
+</main>

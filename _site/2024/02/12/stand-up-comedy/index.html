@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stand up comedy - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I just dreamt about her whole night. The one I saw in the early hours stuck with me among the different ones that I saw.">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Stand up comedy</h1>
+        <div class="post-meta">
+            <time datetime="2024-02-12T03:23:38+00:00">
+                February 12, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/stand-up-comedy.jpg" alt="Stand up comedy" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I just dreamt about her whole night. The one I saw in the early hours stuck with me among the different ones that I saw.</p>
+
+<p>I was living in London in the house that we use to live in. She sent me a stand-up comedy show link in a message. It was at 9 pm. I took bicycle to the show. Reached the place, it was a library. I was looking for her but couldn’t spot her. Messaged her to check where she was and she replied I should look for UAE flag section. I spot her sitting and sit next to her. Happy to see her finally. After few minutes she asked me if I could sit a few seats away as her Date was also on the way and will be there soon. I was thrown back and asked her why did you ask me to come if you were on a date? She responded that the message was just to share the fact that there was a show, not an invitation.</p>
+
+<p>I sat there thinking for few minutes about what was I to do knowing there was a stand up comedy in the city if not come. But she was right, in my anxiousness to see her, I overlooked the fact that she’d didn’t ask me to come. Anyway, I got up to leave and she asked me where I was going? I said, to find some snacks and will be back later. She says there are no food counters here. Told her it didn’t matter, I was going to leave as there has been enough comedy of errors for one evening. I was just being polite about it.</p>
+
+<p>And that was that. What hurt me most after getting up from the dream was that I can’t picture her face. I is getting hazy in my dreams. That just makes me sad.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/02/11/museli/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Museli</h3>
+            <p class="post-nav-excerpt">My emotions have been running unchecked for 2 days now. Leaking corners of eyes every few minutes. Three only thing...</p>
+        </a>
+        
+
+        
+        <a href="/2024/02/12/love-letter/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Love letter</h3>
+            <p class="post-nav-excerpt">Sometimes I wonder why do I write everything that I write here? And then I stumbled on a letter that...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

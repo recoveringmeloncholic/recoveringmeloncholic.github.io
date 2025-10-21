@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grief - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Am I not allowed to take a pause and grieve loss of love? People around me, my mind, my life won’t let me pause. It has a way to bend you to its will. I want...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Grief</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-11T07:00:00+00:00">
+                January 11, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/grief.jpg" alt="Grief" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>Am I not allowed to take a pause and grieve loss of love? People around me, my mind, my life won’t let me pause. It has a way to bend you to its will. I want to find a quiet place, curl up and shed some tears. But I am not allowed that luxury. The feeling, where you scan around for a hidden corner so that crouch down and just be.</p>
+
+<p>I just reached home after what was a mixed day at office. I threw myself on the bed and buried my face in the pillow. Hoping that I won’t have to get up until I feel like. Five minutes in, I need to get up and make tea for myself and others. Resume my normal life. Why can’t my mind just let me be. Why can’t I just shut down for an evening and be left unfound.</p>
+
+<p>I am being asked to rush up and move back to the house. There is so much passive push for me to do that. To leave this sanctuary of solitary life, which I love. To smile, mingle and be someone else with people around. To abandon my rights to sulk and mope. Why can’t I do it on my own terms. A weekend that I had to myself is gone now. I don’t know why I did that. Maybe I should be just reclaim it.</p>
+
+<p>Can I just have a fucking moment for myself!?</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/10/parched/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Parched</h3>
+            <p class="post-nav-excerpt">I am craving a drink. To drown these feelings and the loneliness that night brings everyday. Acutely aware that this...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/12/anger/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Anger</h3>
+            <p class="post-nav-excerpt">Read something I shouldn’t have. I had warned myself not to do that. But now the words are out there...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anger - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Read something I shouldn’t have. I had warned myself not to do that. But now the words are out there and spoken. Nothing can take them back. Just like the nu...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Anger</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-12T07:00:00+00:00">
+                January 12, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/anger.jpg" alt="Anger" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>Read something I shouldn’t have. I had warned myself not to do that. But now the words are out there and spoken. Nothing can take them back. Just like the numerous ones that I said.</p>
+
+<p>People belittling my problems. Trying to rationalise how I am unreasonable and needy and piece of shit. Nothing that I did not expect. And I don’t even like these people. I don’t care about their opinion.</p>
+
+<p>But reading it, pushed me into a dark place. Confirming my belief that no one gets me. Everyone thinks I am being dramatic. And then I think, am I being dramatic? Maybe I am. It doesn’t change the fact that I am reminded again today morning that I have come to this battle alone, and if I perish, it won’t be at anyone’s side.</p>
+
+<p>Everything that I believe I am sacrificing, is only for making this work because I feel responsible for everyone around me.</p>
+
+<p>I knew I would isolate me and be dwelling in this world of self loathing. Everyone thinks that only companionship is important so that is what I will be, a good companion. For rest of my fucking life.</p>
+
+<p>And for everything else that I need to deal with, I will do using this blog. It is no substitute for people, but then I don’t think people will do a better job at listening.</p>
+
+<p>This was not how I imagined my Friday starting. But it did. Can’t wait for the day to finish so that I can go back to my Friday ritual of finishing bottles.</p>
+
+<p>Fuck all this crap. And fuck everyone.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/11/grief/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Grief</h3>
+            <p class="post-nav-excerpt">Am I not allowed to take a pause and grieve loss of love? People around me, my mind, my life...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/12/silence/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Silence</h3>
+            <p class="post-nav-excerpt">This silence around me that somehow found me incessant ringing in ears whispering of my fears missing sanity that it...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

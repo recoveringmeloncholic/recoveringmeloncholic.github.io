@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other side - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="  I have a feeling that I am drowninggetting swept away with the flow of tidethis life lost in finding my way to youI will hopefully find you on the other side">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Other side</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-10T07:00:00+00:00">
+                January 10, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/tide.jpg" alt="Other side" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <blockquote>
+  <p>I have a feeling that I am drowning<br />
+getting swept away with the flow of tide<br />
+this life lost in finding my way to you<br />
+I will hopefully find you on the other side<br /></p>
+</blockquote>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/10/dreams/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Dreams</h3>
+            <p class="post-nav-excerpt">I think we dream so we don’t have to be apart for so long. If we’re in each other’s dreams,...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/10/parched/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Parched</h3>
+            <p class="post-nav-excerpt">I am craving a drink. To drown these feelings and the loneliness that night brings everyday. Acutely aware that this...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

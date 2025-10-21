@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museli - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="My emotions have been running unchecked for 2 days now. Leaking corners of eyes every few minutes. Three only thing I can do it look away and try and shut do...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Museli</h1>
+        <div class="post-meta">
+            <time datetime="2024-02-11T10:53:16+00:00">
+                February 11, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/museli.jpeg" alt="Museli" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>My emotions have been running unchecked for 2 days now. Leaking corners of eyes every few minutes. Three only thing I can do it look away and try and shut down my mind, distract it or play a game endlessly on my phone. And then as soon as I pause, all of it comes rushing back.</p>
+
+<p>I am not sure what is causing it. But this is as bad it ever got. I am hoping it will pass.</p>
+
+<p>I don’t know how to reach out and say something, just to hear a response back. So I pinged to ask for museli recipe. 1 hour after I finished my Museli. As expected she replied earnestly. I don’t even care for the recipe. I already know it. Simple words is what I was looking for. It made me feel better, atleast momentarily.</p>
+
+<p>Just so I don’t think about her, I finished 120 levels in a new game that I stared since last evening.</p>
+
+<p>Hopefully this weekend will be over soon and I can go back to being miserable but atleast busy.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/02/09/love-vs-living/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Love vs Living</h3>
+            <p class="post-nav-excerpt">
+  It is easier to love somebody than to live with them. Love is fantasy, living is work
+
+</p>
+        </a>
+        
+
+        
+        <a href="/2024/02/12/stand-up-comedy/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Stand up comedy</h3>
+            <p class="post-nav-excerpt">I just dreamt about her whole night. The one I saw in the early hours stuck with me among the...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

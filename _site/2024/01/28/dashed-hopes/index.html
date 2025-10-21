@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashed hopes - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I stood there, watching the dust cloud settle as the little remaining joy in my life drove into the sunset. How can I feel so helpless about it when I did it...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Dashed hopes</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-28T10:08:42+00:00">
+                January 28, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/dashed-hopes.jpeg" alt="Dashed hopes" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I stood there, watching the dust cloud settle as the little remaining joy in my life drove into the sunset. How can I feel so helpless about it when I did it all knowingly. Even I thought that I was only half-joking when I said, I could make her hate me and be angry at me. After 2 months I did not know of any other way to help her move on. And until she does, I can’t.</p>
+
+<p>Now that the beats of this relationship have flatlined, I am sort of relieved that there is no one for as far as I can see. It takes away the ambiguity and any remaining hope.</p>
+
+<p>Surprisingly, that is what I need to be at peace, desolation.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/28/god/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">God</h3>
+            <p class="post-nav-excerpt">I am not a religious person. Haven’t been one for more than 2 decades now. But I remember quite well...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/28/not-waving-but-drowning/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Not waving but drowning</h3>
+            <p class="post-nav-excerpt">Nobody heard him, the dead man, But still he lay moaning: I was much further out than you thought And...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

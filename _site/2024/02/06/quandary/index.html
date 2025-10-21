@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quandary - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I slept well. Saw so many dreams mixing reality, past and imagination with fictional TV content. As I step into the morning, they fade fast. And yet, I feel ...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Quandary</h1>
+        <div class="post-meta">
+            <time datetime="2024-02-06T04:55:19+00:00">
+                February 06, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/quandry.jpeg" alt="Quandary" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I slept well. Saw so many dreams mixing reality, past and imagination with fictional TV content. As I step into the morning, they fade fast. And yet, I feel tired and sleepy. Uninterested in everything, feel like lying down and just wait for the day to go by. Everyday, this feeling, as if this life has no meaning and I am just on a pointless journey to an end. I don’t think I am depressed, just grieving, maybe. Again, woke up with a sense of loss. Reminding myself how I cannot have everything in life and it is ok to let go, even if slowly. Inch by inch, everyday.</p>
+
+<p>Stuck in this quandary, whether in my journey to scale this peak of sadness as I hang here in middle, if it is ok to let go, crash to the bottom and restart my climb or just hold on for a moment more? Maybe I’ll find the energy and will to push myself up and get out. Just like how I need to get out of this bed.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/02/05/lonely/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Lonely</h3>
+            <p class="post-nav-excerpt">There are so many times when I wished that I would somehow get away from everything and everyone and no...</p>
+        </a>
+        
+
+        
+        <a href="/2024/02/09/moot/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Moot</h3>
+            <p class="post-nav-excerpt">This week went faster than the last one. Work slowly consuming me as I let it. A constant thread in...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="  The space that separates usspace that surrounds mehas me huddled in a cornerwhen it was suppose to set me free  Battling against my own thoughtsmind attemp...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Free</h1>
+        <div class="post-meta">
+            <time datetime="2023-12-14T06:00:00+00:00">
+                December 14, 2023
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/free.jpeg" alt="Free" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <blockquote>
+  <p>The space that separates us<br />
+space that surrounds me<br />
+has me huddled in a corner<br />
+when it was suppose to set me free<br /></p>
+
+  <p>Battling against my own thoughts<br />
+mind attempting to deceive and delude me<br />
+with its intricately crafted constraints<br />
+when it was suppose to set me free<br /></p>
+
+  <p>Questioning choices, after I made them<br />
+is this what I imagined this to be<br />
+my choices that chain me right now<br />
+when they were suppose to set me free<br /></p>
+
+  <p>Having inflicted pain &amp; agony on self<br />
+pushing people away from me<br />
+resigned, I wait eternally to be rescued<br />
+knowing, now only she can set me free<br /></p>
+</blockquote>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2023/12/13/hope/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Hope</h3>
+            <p class="post-nav-excerpt">Today morning it just hit me how little control I have on my life. An uninterrupted sleep through the night...</p>
+        </a>
+        
+
+        
+        <a href="/2023/12/16/last-words/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Last Words</h3>
+            <p class="post-nav-excerpt">It was the end of the road for her. She had known that for a while, I knew it only...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

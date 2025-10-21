@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introspection - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="It has been a month since I started tracking my mood to build a better understanding of whether I am on a path of recovery yet or not. Looking at the data I ...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Introspection</h1>
+        <div class="post-meta">
+            <time datetime="2024-02-13T18:15:48+00:00">
+                February 13, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/introspection.jpg" alt="Introspection" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>It has been a month since I started tracking my mood to build a better understanding of whether I am on a path of recovery yet or not. Looking at the data I would say that the verdict is still not clear. I do feel that a week back I was lot more neutral and ok, but suddenly the last few days or a week has been difficult. Maybe this is what peaks and troughs look like and over time they will flatten. If I look closely, I can see the upward and downward slopes somewhere between those points.</p>
+
+<p><img src="/assets/images/state-of-mind.jpeg" alt="image" /></p>
+
+<p>What I do know is that I have not been travelling much and that sort of has kept me busy at home, however starting next week I will be travelling a lot more, sometimes across timezones. And I know travel aggravates loneliness. But hopefully I’ll manage it better this time around.</p>
+
+<p>I do think my mind is actively working to help me tide over this. A lot of my dreams are worst case scenarios which sort of push me to move in a direction where I’ll start to actively move on. Sometimes I nitpick and find flaws that don’t exist to conceive incompatibilities that do not exist (or maybe do, since I am starting to become unsure about some things). I try to find reasons for hate, and while hate is impossible, it is an attempt to counterbalance my feelings. I have been thinking about finding people who can be just friends, meet and have a chat once in a while. I made my first attempt yesterday, lets see if it happens, I am far too unsure about meeting, but will take a leap of faith to reconnect with old friends who have grown out of touch. Have a friend visiting in early March, lets see how that goes, if I am back from my trip in time.</p>
+
+<p>It just feels like, that my mind, this complex machinery is doing everything it can to nudge me and say “survive”.</p>
+
+<p>Some days are better than the others, busy ones for sure. One of things I am quite happy about is that my work is back on track. I am focused, driven and unyielding. I hope it stays that way. But I am also not surprised, there has never been a crisis in my life, that affected my work for long. Work and financial stability is the foundation my life is somehow built upon. I take some sort of pride in that level of reliability. My whole mind is wired that way and thats exactly why my weekends are the hardest.</p>
+
+<p>The news at work is not great, but my stress is much lower today. Mostly a neutral outlook. I think I even enjoyed listening to some songs. I even cooked for myself and ate something I like.</p>
+
+<p>Hopefully tomorrow is going to be better.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/02/12/love-letter/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Love letter</h3>
+            <p class="post-nav-excerpt">Sometimes I wonder why do I write everything that I write here? And then I stumbled on a letter that...</p>
+        </a>
+        
+
+        
+        <a href="/2024/02/16/untitled-2/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Irrational</h3>
+            <p class="post-nav-excerpt">I am out there somewhere. But not here. I have become so nervous about the weekends, that I go and...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

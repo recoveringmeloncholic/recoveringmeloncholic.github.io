@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Night is the hardest. It absconds from the humdrum and ambient noise of the life. The eerie silence never fails to remind you of the loneliness that perpetua...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Night</h1>
+        <div class="post-meta">
+            <time datetime="2023-12-30T06:00:00+00:00">
+                December 30, 2023
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/night.jpg" alt="Night" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>Night is the hardest. It absconds from the humdrum and ambient noise of the life. The eerie silence never fails to remind you of the loneliness that perpetually surrounds you. Invisible, lurking but always there. There could be million people thinking about you, but the only thing that pierces through the silence of the night are the incessant ticks of the clock that somehow slow down when you are intently listening to them.</p>
+
+<p>Writing after so many years, I have a good wine to sip on and some music that is revisiting me after a decade or more. It is evoking a familiar feeling. Something that felt so comfortable with, long ago. To sit and revel in. I have been a hamster in a wheel for 20 years and I have another 20 ahead of me. I am told I am having mid life crisis. Am I? Sometimes I believe that and then other times I am disappointed that how I feel has been distilled down into a phrase that is easy to shrug off as a “phase”. I feel not-understood by people who I thought would get me. Who also possibly pulled me out of my worst.</p>
+
+<p>I am slowly lapsing. I keep telling myself I am not, it is just this night. But I know I am. I am not even resisting it. I possibly don’t care enough anymore. I am also acutely aware that I am too tedious for anyone trying to do good for me. They don’t have the perseverance to last, saving me from myself. I know how this goes and ends. I hope there is someone peering into this hole when I am done to pull me out of it. Unfortunately the truth is that when you are wrinkled and at the end of your life, the only things that will pretend to care about you is the bottle you are chained to and the night that won’t leave you.</p>
+
+<blockquote>
+  <p>Night is the bridge that we must cross from the regrets of today to the promise of tomorrow</p>
+</blockquote>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2023/12/25/afloat/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Afloat</h3>
+            <p class="post-nav-excerpt">Today I have run out of music and I dwell in my dreams. Keeping the eyes shut. Listening noise to...</p>
+        </a>
+        
+
+        
+        <a href="/2023/12/30/boundaries/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Boundaries</h3>
+            <p class="post-nav-excerpt">Fuck them.
+</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

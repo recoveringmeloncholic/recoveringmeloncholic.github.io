@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fall - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Running up the steps I missed the last one. As the ankle twisted and I heard a distinctive crack, the first emotion that accompanied the searing pain was tha...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Fall</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-26T13:20:15+00:00">
+                January 26, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/fall.jpg" alt="Fall" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>Running up the steps I missed the last one. As the ankle twisted and I heard a distinctive crack, the first emotion that accompanied the searing pain was that of relief. While I stayed down on the ground for about 20 minutes absorbing the pain,  I kept thinking how nice it would be now to have an excuse to not get out of my bed anymore even if in some ways I don’t have anyone to take care of me.</p>
+
+<p>I called my wife, who was due to be on her stall in 30 minutes and told her and I have fallen down and might need to go to hospital. Her first response was that of frustration. “Of all days, you had to fall today”. I understand her frustration. This was an important day for her. But wouldn’t it be nice if someone dropped everything for you in a moment? After a stranger helped me with an ice pack, I limped back home later. I reflected if I have ever dropped important things when I had to, thankfully it is an answer that I like. Or so I’d like to believe.</p>
+
+<p>In the moments of need, it can get lonely, but today I don’t need anyone. Today I am not helpless. I am just down on the ground and I know I have to get up and help myself. And just how a stranger got me an ice pack for swollen ankle, maybe a bunch of strangers will lend me a hand and push me through this, without needing to feel that they need to forget that I exist. To be honest, I barely do and didn’t think it was ever going to be a problem.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/25/crisis/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Crisis</h3>
+            <p class="post-nav-excerpt">And just like that I am spiralling down. The great filter is here.
+</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/26/slow-down/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Slow down</h3>
+            <p class="post-nav-excerpt">There is nowhere I need to be. There is no one waiting for me. There is nothing I hope to...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

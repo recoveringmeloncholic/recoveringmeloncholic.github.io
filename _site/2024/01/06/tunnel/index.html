@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunnel - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I started at 10 pm. It is 3:22. What am I going to tell her, if she ever finds out? She is going to be so mad. She can never find out. That’s five and half h...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Tunnel</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-06T17:00:00+00:00">
+                January 06, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/tunnel.jpeg" alt="Tunnel" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I started at 10 pm. It is 3:22. What am I going to tell her, if she ever finds out? She is going to be so mad. She can never find out. That’s five and half hours of drinking. Tonight I have become everything I was ever worried about. Drunk, incoherent and lonely. I feared this would happen.</p>
+
+<p>I convinced myself I needed to see Requiem for a dream. It was a terrible idea. My mind had discarded the memory of how that movie ended for a reason. And I worry that I’ll never be able to forget it now.</p>
+
+<p>I want to sleep. I do not want to be responsible for anyone today. As my eyes shut down I wonder if I have that choice. I don’t.</p>
+
+<p>Sometimes, I hate my life so much. I do. I do. I do. I fucking do.</p>
+
+<p>Fuck. This. Shit.</p>
+
+<p>The light in tunnel is so far away today. Light is the symbol of hope. But I am going to lie here today and get back to this tomorrow.</p>
+
+<p>Maybe.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/06/untiliseeyouagain/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Until I see you again</h3>
+            <p class="post-nav-excerpt">Just typing that title broke me down. I looked at myself in the mirror and questioned if it really mattered...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/06/notimeforcaution/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">No time for caution</h3>
+            <p class="post-nav-excerpt">I cannot let me go to sleep like that. It is 4 am. I need some courage and inspiration, so...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

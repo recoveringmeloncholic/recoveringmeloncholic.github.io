@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frustration - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="My mind is possibly my arch-nemesis. Talking me up and cajoling to do nice things for self and telling me how I have everything under control. And then when ...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Frustration</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-31T13:47:39+00:00">
+                January 31, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/frustration.jpeg" alt="Frustration" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>My mind is possibly my arch-nemesis. Talking me up and cajoling to do nice things for self and telling me how I have everything under control. And then when a moment of frustration arrives, then completely flip its position and remind me how I am on this path to crash and burn. Bloody thing.</p>
+
+<p>I don’t know how much personal growth can really be extracted out of someone. I feel like I am constantly wiggling through the cracks in this rubble that I am caught under. So much so, that at this point I have lost the sense of direction. I don’t even know if I am trying to get out or go deeper. And then I tell myself, No pressure, no diamonds.</p>
+
+<p>I have been tracking my mood over time with data to see if I am overall getting better or feeling worse and what is affecting me the most. So far it has been 2 weeks since I started capturing it. And I am generally more down than up. But hopefully this will get better with time. Good days and bad days.</p>
+
+<p><img src="/assets/images/stateofmindone.jpg" alt="image" /></p>
+
+<p>Hopefully the only way from here is up.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/30/fairy-tales/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Fairy tales</h3>
+            <p class="post-nav-excerpt">Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that...</p>
+        </a>
+        
+
+        
+        <a href="/2024/02/01/aftershocks/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Aftershocks</h3>
+            <p class="post-nav-excerpt">I was going about my business as usual. Mind galloping through the fields of memories and then suddenly I stumbled...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

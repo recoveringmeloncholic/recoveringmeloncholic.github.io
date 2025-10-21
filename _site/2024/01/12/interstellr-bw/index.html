@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do not go gentle in good night - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Something to remember when you are lost in the darkness of the night.">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Do not go gentle in good night</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-12T16:25:24+00:00">
+                January 12, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/interstellr-bw.jpg" alt="Do not go gentle in good night" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>Something to remember when you are lost in the darkness of the night.</p>
+
+<blockquote>
+  <p>Do not go gentle into that good night,<br />
+Old age should burn and rave at close of day;<br />
+Rage, rage against the dying of the light.<br />
+<br />
+Though wise men at their end know dark is right,<br />
+Because their words had forked no lightning they<br />
+Do not go gentle into that good night.<br />
+<br />
+Good men, the last wave by, crying how bright<br />
+Their frail deeds might have danced in a green bay,<br />
+Rage, rage against the dying of the light.<br />
+<br />
+Wild men who caught and sang the sun in flight,<br />
+And learn, too late, they grieved it on its way,<br />
+Do not go gentle into that good night.<br />
+<br />
+Grave men, near death, who see with blinding sight<br />
+Blind eyes could blaze like meteors and be gay,<br />
+Rage, rage against the dying of the light.<br />
+<br />
+And you, my father, there on the sad height,<br />
+Curse, bless, me now with your fierce tears, I pray.<br />
+Do not go gentle into that good night.<br />
+Rage, rage against the dying of the light.<br /></p>
+</blockquote>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/12/hate/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Hate</h3>
+            <p class="post-nav-excerpt">I am sooooo out there, no sense of reality around me. I keep checking my messages, but they don’t come....</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/19/sunset/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Sunset</h3>
+            <p class="post-nav-excerpt">I didn’t know until then, that a calm breeze &amp; setting sun could be so peaceful. It fed the souls,...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

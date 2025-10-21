@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silence - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="  This silence around methat somehow found meincessant ringing in earswhispering of my fearsmissing sanity that it stolethis silenceit will swallow me whole">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Silence</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-12T08:22:09+00:00">
+                January 12, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/silence.jpeg" alt="Silence" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <blockquote>
+  <p>This silence around me<br />
+that somehow found me<br />
+incessant ringing in ears<br />
+whispering of my fears<br />
+missing sanity that it stole<br />
+this silence<br />
+it will swallow me whole<br /></p>
+</blockquote>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/12/anger/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Anger</h3>
+            <p class="post-nav-excerpt">Read something I shouldn’t have. I had warned myself not to do that. But now the words are out there...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/12/iamok/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">I am ok</h3>
+            <p class="post-nav-excerpt">The volume won’t go any higher. I am struggling to describe how I feel. I have this irrational euphoria now...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

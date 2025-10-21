@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okay - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I pretend to be okay. When I woke up this morning, I realised that part of me refused to wake up with me today. Maybe it is hibernating or maybe it is dead. ...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Okay</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-05T07:00:00+00:00">
+                January 05, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/okay.png" alt="Okay" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I pretend to be <strong><em>okay</em></strong>. When I woke up this morning, I realised that part of me refused to wake up with me today. Maybe it is hibernating or maybe it is dead. The general wisdom says, don’t poke the bear when it is sleeping. So I decided to let it be.</p>
+
+<p>I pretend to be <strong><em>okay</em></strong>, while I have these moments of rage. Ones when I look for a quiet corner to brood. The moment when my feet pushes the pedal to the floor, momentarily. The moment when I just want to put my head on the table and stare at my shoes. And then the sensibility gushes in. Trying to drown this insanity. It doesn’t know that insanity does not need to breathe. It cannot be choked.</p>
+
+<p>I pretend to be <strong><em>okay</em></strong>. I have been told, ok is not a feeling. It is a filler to help you lock out your true feelings. It is a facade. And behind that facade everything is often anything but <strong><em>okay</em></strong>.</p>
+
+<blockquote>
+  <p>The quiet in my heart is louder than the chaos in mind<br />
+I pretend to move forward, while I keep hitting rewind<br />
+At the cusp of this cliff, the void below is calling out to me<br />
+screaming loud to abandon my love and set myself free<br />
+So that’s what I’ll do today<br /></p>
+</blockquote>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2023/12/31/endandabeginning/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">The end and a beginning</h3>
+            <p class="post-nav-excerpt">It is new years eve. Honestly, I have never cared about them and this one isn’t any more special. I...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/06/untiliseeyouagain/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Until I see you again</h3>
+            <p class="post-nav-excerpt">Just typing that title broke me down. I looked at myself in the mirror and questioned if it really mattered...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

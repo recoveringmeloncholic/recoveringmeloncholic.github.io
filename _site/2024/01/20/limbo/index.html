@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limbo - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Every time I sit in my car and start driving, my mind is crowded with irrational thoughts. I want to act on my impulse, and then I  slowly talk myself out of...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Limbo</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-20T13:39:15+00:00">
+                January 20, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/limbo.jpg" alt="Limbo" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>Every time I sit in my car and start driving, my mind is crowded with irrational thoughts. I want to act on my impulse, and then I  slowly talk myself out of it.</p>
+
+<p>Step by step, convincing myself that I am over romanticising the possibilities and the life. I tell myself about the impracticality of the idea. How the rosy nature of it all will be over even before I know it. How I will regret my  choices everyday and will become the reason for derailing so many lives.</p>
+
+<p>However in one of those moments it dawned on me that possibly I am attaching more importance to just the decision part of it, whereas either decision is ok. What would really matter is my ability to commit to it and walk that path down navigating with best effort at every step.</p>
+
+<p>And so I wondered, if I have already made the decision how do  I navigate it now? And I just feel stuck. I know what needs to be done but I just don’t have the heart or will to do it.</p>
+
+<p>I continue to dwell in this limbo where there are no clear choices or answers. I know I need to move forward as the next step, but my heart isn’t cooperating  with my mind.</p>
+
+<p>It needs to heal before it does. I don’t know what to do tide over this except give it time and wait in this limbo.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/19/sunset/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Sunset</h3>
+            <p class="post-nav-excerpt">I didn’t know until then, that a calm breeze &amp; setting sun could be so peaceful. It fed the souls,...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/21/recovery/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Recovery</h3>
+            <p class="post-nav-excerpt">I fell asleep last night putting kids to sleep. The night was plagued with broken sleep, distant dreams and swirling...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

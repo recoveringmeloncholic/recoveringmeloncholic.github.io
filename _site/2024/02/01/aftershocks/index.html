@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aftershocks - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I was going about my business as usual. Mind galloping through the fields of memories and then suddenly I stumbled on this realisation that talking to myself...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Aftershocks</h1>
+        <div class="post-meta">
+            <time datetime="2024-02-01T15:10:48+00:00">
+                February 01, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/aftershocks.jpg" alt="Aftershocks" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I was going about my business as usual. Mind galloping through the fields of memories and then suddenly I stumbled on this realisation that talking to myself constantly in my head was such a usual part of my life for so many years. The anxiety to tell or share something with a real person didn’t even exist. My usual routine was to do celebratory cheers and sullen whispers in my head and move on.</p>
+
+<p>Last few months had completely changed that. I had a totally different outlet. I was talking to a real person. Looking forward to it. Instead of listening to music in my car, I would be debating, learning, arguing or laughing about something or the other. I am back to the music, the loud volume trying to drown the thoughts in my head. I am talking to myself once again. It doesn’t feel unnatural but something feels amiss. It happened without any warning, in a split second as if a tsunami of thought released a feeling that was deeply buried somewhere inside and the emotions ran unchecked. Took me a bit to recover but I did. Rest of the day went running post to post. No time to breath.</p>
+
+<p>I am lying in the bed now and out of nowhere comes this deep sense of loss of friendship and loneliness. And I am back in the emotional trenches. These emotions come as aftershocks.</p>
+
+<p>They are sudden, come without a warning and take over me rapidly. I am trying but I don’t think I can replicate how I felt again. And some part of me is even scared to do that. There is only so many times you want to give these jolts of change to yourself.</p>
+
+<p>Hopefully, the aftershocks will pass and I will be a person I was. Cruising an unexhilarating life on auto pilot, living and subtitling it in my head, as I would have a year ago.</p>
+
+<p>Alone was never this hard before.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/31/frustration/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Frustration</h3>
+            <p class="post-nav-excerpt">My mind is possibly my arch-nemesis. Talking me up and cajoling to do nice things for self and telling me...</p>
+        </a>
+        
+
+        
+        <a href="/2024/02/02/stuck/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Stuck</h3>
+            <p class="post-nav-excerpt">Sometimes I wonder if she remembers me still. The fast fading memory of a time and person that was transitory...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

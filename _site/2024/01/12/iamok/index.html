@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am ok - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="The volume won’t go any higher. I am struggling to describe how I feel. I have this irrational euphoria now that I have disconnected from the physical world ...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">I am ok</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-12T11:45:09+00:00">
+                January 12, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/iamok.jpg" alt="I am ok" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>The volume won’t go any higher. I am struggling to describe how I feel. I have this irrational euphoria now that I have disconnected from the physical world around me. I am hiding behind the loud music in my years. With whiskey swirling on my tongue I finally feel my mind slowing down. As it winds down, it is starting to feel the pent up exhaustion from all the running in circles. I feel the work is behind me, the pressure to keep chugging along at a pace that prevents from being called out as “non-performant”, is temporarily gone.</p>
+
+<p>I can feel the tears welling up in my eyes, ready to break the fences and roll down the cheeks. Releasing the anguish and anger that is trapped inside. I don’t even know who I am angry with and what I am angry about. I feel sad that I keep coming back here to write to feel better. I feel frustrated that I have no one. I feel frustrated that I don’t want anyone. I feel sad that in this moment my life has lost any meaning or purpose. I ate a salad for lunch. Why? Because it is healthy. So? I should be healthy. Why? For what or whom? And I am not able to answer that question. I really can’t.</p>
+
+<p>I finally feel a bit relaxed. I can attribute my actions to incoherence. I can shed accountability. I can be someone I don’t like. I can say things and then disown them tomorrow. I can possibly take off this mask and reveal myself. I may not like who I see in the mirror but this light-headedness will help me with that.</p>
+
+<p>Let me say this, dispassionately. I hate my life. I am reliving my past just that I don’t have the enthusiasm and optimism of a 24 year old anymore. I don’t think my world is full of possibilities. I think this is as good a place as any to just drop down on knees and call it quits. And I feel tired. I have no one to answer to and I have no one to look forward to.</p>
+
+<p>And of all the mornings, today she asks me how am I doing? What am I to say? What if I say I am not doing well? Will we abandon the path we have walked over the last week to start at ground zero again? Is that what we will do to each other. There is no fucking point to that question. I know even I ask that. And when I do, I am prepared to go back to the start. Does that mean I am willing to do the same to her? Absolutely not. So in essence, as far as my answer goes, “I am ok”.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/12/silence/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Silence</h3>
+            <p class="post-nav-excerpt">This silence around me that somehow found me incessant ringing in ears whispering of my fears missing sanity that it...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/12/hate/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Hate</h3>
+            <p class="post-nav-excerpt">I am sooooo out there, no sense of reality around me. I keep checking my messages, but they don’t come....</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

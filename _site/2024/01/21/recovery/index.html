@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recovery - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I fell asleep last night putting kids to sleep. The night was plagued with broken sleep, distant dreams and swirling mind.">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Recovery</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-21T07:28:16+00:00">
+                January 21, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/recovery.jpg" alt="Recovery" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I fell asleep last night putting kids to sleep. The night was plagued with broken sleep, distant dreams and swirling mind.</p>
+
+<p>I saw friends moving countries and I am packing up stuff and getting  ready for a move myself. I saw I dropped my new phone and broke it. I saw that I pushed my wife on the brink of hopelessness. I woke up with guilt and regret. It was a moment  of clarity at 2:30 am.</p>
+
+<p>I  held her hand when she didn’t asked me to and led her to this life. Despite all the challenges, she is trying whatever she thinks she needs to. I don’t  know  whether I found my rock bottom or not but I know that she found herself in an unpleasant place this month. I feel responsible for that. I cannot abandon her.</p>
+
+<p>When I got up  in the morning, I felt more at peace. Partly because there is a growing sense of lack of choice. As if the decision is not with me anymore. I just have a role to play.</p>
+
+<p>I found my mind more focused and calm, which is how it usually is when I have been given a task.</p>
+
+<p>I am a bit sad but I feel better. I hope this is a concrete step in a direction.  My heart is known to take one step forward and two steps back.</p>
+
+<blockquote>
+  <p>Grief is a faster teacher than joy<br /></p>
+</blockquote>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/20/limbo/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Limbo</h3>
+            <p class="post-nav-excerpt">Every time I sit in my car and start driving, my mind is crowded with irrational thoughts. I want to...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/22/forgotten/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Forgotten</h3>
+            <p class="post-nav-excerpt">I am sitting in a corner sipping a neat gin, wondering why am I doing that? It is very unlike...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

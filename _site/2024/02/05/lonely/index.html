@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lonely - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="There are so many times when I wished that I would  somehow get away from everything and everyone and no one is able to find me. But it mostly remained a mom...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Lonely</h1>
+        <div class="post-meta">
+            <time datetime="2024-02-05T09:18:32+00:00">
+                February 05, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/lonely.jpg" alt="Lonely" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>There are so many times when I wished that I would  somehow get away from everything and everyone and no one is able to find me. But it mostly remained a momentary wish. Something you say but don’t really realise or experience. This time however I may have ventured far away from everything. There is truly no one who is going to find me here. Finally I am alone with myself. No matter how loud I scream, what I say, it is going to go unheard and be lost into the void.</p>
+
+<p>Even though earlier I was mostly talking to myself all this while, there was some solace that someone else was listening in on it. Not anymore.</p>
+
+<p>It feels a bit lonlier than it did before. Nothing that I can’t survive though. Right?</p>
+
+<blockquote>
+  <p>If a tree falls in a forest and there is no one to hear it does it still make a sound?</p>
+</blockquote>
+
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/02/04/finally-alone/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Finally alone</h3>
+            <p class="post-nav-excerpt">Bit by bit, I have navigated my path to detach and distance. Incrementally doing the hard thing to lead myself...</p>
+        </a>
+        
+
+        
+        <a href="/2024/02/06/quandary/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Quandary</h3>
+            <p class="post-nav-excerpt">I slept well. Saw so many dreams mixing reality, past and imagination with fictional TV content. As I step into...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

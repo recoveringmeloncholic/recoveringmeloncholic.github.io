@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chasm - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="What am I supposed to say? How am I to respond to something heartfelt? You can’t be the one to put up a wall and then pretend that it doesn’t exist.">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Chasm</h1>
+        <div class="post-meta">
+            <time datetime="2024-02-03T18:26:02+00:00">
+                February 03, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/chasm.jpeg" alt="Chasm" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>What am I supposed to say? How am I to respond to something heartfelt? You can’t be the one to put up a wall and then pretend that it doesn’t exist.</p>
+
+<p>The words clamber to the tip of my tongue to die there. They lie among the things unsaid. Possibly for the best. Short term vs long term trade offs, right? Where does this path go? Do we need to walk this? Do we even have a choice?</p>
+
+<p>Sometimes, we simplify the choices that we have, we reduce the arguments we face, we answer simply in our minds, sidelining the nuances, possibilities and complexities. We want decisions to be taken away from us. And be made bystanders to our lives so that we don’t remain answerable to our future self.</p>
+
+<p>How do we we get past this place? How do we both find peace?</p>
+
+<blockquote>
+  <p>The chasm that divides us<br />
+one that grows bigger by the day<br />
+is too big for words to bridge now<br />
+no matter what we have to say<br />
+<br />
+the burden that is ours to carry<br />
+despondency that precipitates these sighs<br />
+before we crumble under its weight<br />
+our hearts of steel must say their goodbyes<br /></p>
+</blockquote>
+
+<p>There has to be a way.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/02/03/longing/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Longing</h3>
+            <p class="post-nav-excerpt">Woke up with a longing to hold and see that I can’t explain and have not felt before.
+</p>
+        </a>
+        
+
+        
+        <a href="/2024/02/04/finally-alone/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Finally alone</h3>
+            <p class="post-nav-excerpt">Bit by bit, I have navigated my path to detach and distance. Incrementally doing the hard thing to lead myself...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

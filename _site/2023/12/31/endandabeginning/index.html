@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The end and a beginning - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="It is new years eve. Honestly, I have never cared about them and this one isn’t any more special. I want this day to be as uneventful as possible. I want my ...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">The end and a beginning</h1>
+        <div class="post-meta">
+            <time datetime="2023-12-31T07:00:00+00:00">
+                December 31, 2023
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/endAndBeginning.png" alt="The end and a beginning" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>It is new years eve. Honestly, I have never cared about them and this one isn’t any more special. I want this day to be as uneventful as possible. I want my life to be boring for a while.</p>
+
+<p>2023 was the year that I will remember forever. I have made leaps I considered myself incapable of making. In retrospect they have done me good. They have also left me mired in sadness but that is of my own doing, and it is a bit heartbreaking. Just because you impale your own skin does not mean it has to hurt any less. If anything, just knowing the pain that you are about to inflict upon yourself makes you flinch and feel it even more.</p>
+
+<p>I had some incredible moments where I felt completely lost in a good way. I learned so much about myself and questioned what really matters. I’m confused about being a bit selfish, even when it’s for the right reasons. I don’t know what’s coming next, but I know this year changed me. Whether it’s for better or worse, only time will tell. I found people who make me feel alive, valued, and loved. I wish they could be a bigger part of my everyday life, but I’ve still got some mental mountains to climb before I can make that leap.</p>
+
+<p>I say I am hopeful about 2024, but if I am honest to myself, this is the first time in my life, I don’t look forward to an upcoming year. I am worried and I feel, 2024 is the year I will hit the rock bottom. I am on this quest of navigating from guaranteed mediocrity to elusive bliss. Maybe I’ll find it or I’ll get lost. I also have this foreboding that unlike before, there is no one who will come looking for me now.</p>
+
+<p>Yet, here is something wise that gives me hope.</p>
+
+<blockquote>
+  <p>Plura sunt, Lucili, quae nos terrent quam quae premunt, et saepius opinione quam re laboramus. (There &gt;are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in &gt;imagination than in reality.) ~ Seneca</p>
+</blockquote>
+
+<p>On this hope remains affixed my life in 2024. The end of now and the beginning of then.</p>
+
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2023/12/30/boundaries/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Boundaries</h3>
+            <p class="post-nav-excerpt">Fuck them.
+</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/05/okay/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Okay</h3>
+            <p class="post-nav-excerpt">I pretend to be okay. When I woke up this morning, I realised that part of me refused to wake...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I didn’t know until then, that a calm breeze &amp; setting sun could be so peaceful.  It fed the souls, calmed the mind and melted the hearts. Despite the fa...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Sunset</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-19T05:42:44+00:00">
+                January 19, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/sunset.jpeg" alt="Sunset" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I didn’t know until then, that a calm breeze &amp; setting sun could be so peaceful.  It fed the souls, calmed the mind and melted the hearts. Despite the fact that nothing was said, it was one of the memorable evenings I have. The place is etched with a memory that time will find hard to scrub.</p>
+
+<p>With the drowning sun, drowned so many choices &amp; possibilities and all that remained behind were memories that I’ll cling onto forever. It is surprising how some of the most mediocre coffee can become a cherished memory.</p>
+
+<p>It’ll be one of my favorite spots and now I know where to go when I am lost.</p>
+
+<blockquote>
+  <p>How lucky I am to have something that makes saying goodbye so hard<br />
+~ Piglet (in winnie the pooh)<br /></p>
+</blockquote>
+
+<p>I am glad, it happened. I am glad everything led to where I found myself and I am thankful that I got this day.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/12/interstellr-bw/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Do not go gentle in good night</h3>
+            <p class="post-nav-excerpt">Something to remember when you are lost in the darkness of the night.
+</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/20/limbo/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Limbo</h3>
+            <p class="post-nav-excerpt">Every time I sit in my car and start driving, my mind is crowded with irrational thoughts. I want to...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

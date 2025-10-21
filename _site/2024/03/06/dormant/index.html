@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dormant - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I haven’t been here in a while. It has been a conscious choice. I have held myself back largely. There are several unpublished drafts that I don’t think I’ll...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Dormant</h1>
+        <div class="post-meta">
+            <time datetime="2024-03-06T05:02:27+00:00">
+                March 06, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/dormant.jpg" alt="Dormant" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I haven’t been here in a while. It has been a conscious choice. I have held myself back largely. There are several unpublished drafts that I don’t think I’ll publish now. In fact, I have been thinking about taking down this blog for good. I think it has run its course and served its purpose, to whatever extent it possibly can. I have to pay some money to run it everyday. I anyway cannot do that indefinitely and I don’t want to host it anywhere else.</p>
+
+<p>I have mostly ok days. I am busy, occupied and going where my life will take me. Some parts have changed in my life, others I have made peace with. I do remain emotionally volatile and erupt now and then. But I hope thats almost like a volcano, possibly never going to go away only transition from active to dormant state. Thats life.</p>
+
+<p>This is it, thanks for listening to me.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/02/16/untitled-2/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Irrational</h3>
+            <p class="post-nav-excerpt">I am out there somewhere. But not here. I have become so nervous about the weekends, that I go and...</p>
+        </a>
+        
+
+        
+        <div class="post-nav-item post-nav-empty"></div>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>

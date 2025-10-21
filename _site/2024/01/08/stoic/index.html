@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoic - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="I am surprisingly devoid of emotions this morning. I imagined my body would refuse to get out of the bed today. But I did and made tea for dad. I am going to...">
+</head>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Stoic</h1>
+        <div class="post-meta">
+            <time datetime="2024-01-08T07:00:00+00:00">
+                January 08, 2024
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/stoic.jpeg" alt="Stoic" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>I am surprisingly devoid of emotions this morning. I imagined my body would refuse to get out of the bed today. But I did and made tea for dad. I am going to get into a shower. It feels like my mind is actively trying to partition my life. The one on the weekend, where a sadness washes over me and the one on the weekday, where it tries to stay focused and dispassionate.</p>
+
+<p>I have mountain of work in front of me. I know there will be moments and I know I am grieving somewhere deep down. But right now, it feels like my mind and body are acclimatising to help me move without compromising my day to day sanity. This feel weird</p>
+
+<p>I have set myself back on my weight and gained enough in short amount of time. But it is ok. I will not exert too much control on myself will just continue healthy eating for this week and hopefully I’ll be back on track.</p>
+
+<p>So today is just empty. There is no sadness, no rage, no joy. I feel like a boulder, sitting in one place, weathering whatever time will bring. Just being stoic.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2024/01/06/notimeforcaution/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">No time for caution</h3>
+            <p class="post-nav-excerpt">I cannot let me go to sleep like that. It is 4 am. I need some courage and inspiration, so...</p>
+        </a>
+        
+
+        
+        <a href="/2024/01/08/empty/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Empty</h3>
+            <p class="post-nav-excerpt">Peering into my soul, I see it suspended emotionless in a corner. As if it has been wrung dry of...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>
