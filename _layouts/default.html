@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 </head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1J6QPDPEHQ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1J6QPDPEHQ');
+</script>
 <body class="{% if page.layout == 'home' %}home-page{% endif %}">
     <nav class="top-nav">
         <div class="nav-container">
