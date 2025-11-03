@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Most days when I am down in the dumps I use this place to find my balance, vent out and generally spew hatred at the cosmos. However the days I am at peace, ...">
+</head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1J6QPDPEHQ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1J6QPDPEHQ');
+</script>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Content</h1>
+        <div class="post-meta">
+            <time datetime="2025-11-03T11:00:00+00:00">
+                November 03, 2025
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/content.jpg" alt="Content" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>Most days when I am down in the dumps I use this place to find my balance, vent out and generally spew hatred at the cosmos. However the days I am at peace, I tend to be an ungrateful prick and I don’t say much. So I thought maybe it is time to change it today.</p>
+
+<p>While I am not at a point where I am thinking of this as a gratitude journal, even though I have enough in life to be grateful about, I think it is worth broadcasting to the void that I feel hopeful, calm and content.</p>
+
+<p>Last few days were all about regurgigating months of pent up feelings. With all that unloaded into the abyss, I feel lighter and calmer.</p>
+
+<p>It is easy to get tunnel-visioned on what you don’t have, to lose the sight of what you do. I remember I took this path to make best of what I have rather than what it could be. Today is a reminder of that.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2025/11/02/cycles/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Cycles</h3>
+            <p class="post-nav-excerpt">I have been travelling. Came down to a house where I grew up in my teenage and adoloscent years. Memories...</p>
+        </a>
+        
+
+        
+        <div class="post-nav-item post-nav-empty"></div>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>
