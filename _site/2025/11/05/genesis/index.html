@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Back in cab, on my way to home. Reading old letters as I usually do at 1:30 am. Went far back when we were guessing names. I looked through the letters and I...">
+</head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1J6QPDPEHQ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1J6QPDPEHQ');
+</script>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Genesis</h1>
+        <div class="post-meta">
+            <time datetime="2025-11-05T20:00:00+00:00">
+                November 05, 2025
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/genesis.jpeg" alt="Genesis" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>Back in cab, on my way to home. Reading old letters as I usually do at 1:30 am. Went far back when we were guessing names. I looked through the letters and I saw something that I missed as it was happening then.</p>
+
+<p>Lookng back, I think this picture was the genesis of what we termed as “crash &amp; burn” eventually, even before it happened, from what <s>was</s> <i>could have been</i> a beautiful friendship.</p>
+
+<p>The need to know more. The need to have more. The need to be more.</p>
+
+<blockquote>
+  <p>He who is not contented with what he has, would not be contented with what he would like to have 
+~Socrates</p>
+</blockquote>
+
+<p>Once of the excerpt from the letter that I enjoyed reading again.</p>
+
+<blockquote>
+  <p>We have graduated to life, my dear! (I have this habit of kissing the back of my right fist when I think about/talk to myself about someone who I have tender feelings for – only a couple of people in that list– I just did that writing the above sentence. That’s the sign)</p>
+</blockquote>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2025/11/05/socks/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Socks</h3>
+            <p class="post-nav-excerpt">There was a time when I wore only grey, black and white socks. Thick ones. Only specific brands. Mostly because...</p>
+        </a>
+        
+
+        
+        <div class="post-nav-item post-nav-empty"></div>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>
