@@ -5,10 +5,6 @@ date: 2026-07-15 16:00:00 -0000
 image: assets/images/falling-dream.png
 ---
 
-Thought process
-Thought process
-Here it is without any em dashes:
-
 For a long time I circled the idea of turning this space into an event journal, and every time the thought surfaced I waved it away. The trouble, if you can call it that, is that sobriety keeps the mind too lucid, too orderly, and nothing spills out on its own. Except, of course, on the days you wander out for Kombucha and come home clutching a bottle of cider. Such is life.
 
 I sat down tonight meaning to write about how I feel. Then it struck me that how I feel today won't matter much tomorrow. What will matter, what I'll want waiting for me when my grip on my own mind begins to loosen, are the memories worth keeping. So I'll use this place to set them down while I still can.
