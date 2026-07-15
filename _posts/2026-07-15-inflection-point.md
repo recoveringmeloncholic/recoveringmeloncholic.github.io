@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Inflection Point"
-date: 2026-07-15 23:00:00 -0000
+date: 2026-07-15 16:00:00 -0000
 image: assets/images/falling-dream.png
 ---
 
