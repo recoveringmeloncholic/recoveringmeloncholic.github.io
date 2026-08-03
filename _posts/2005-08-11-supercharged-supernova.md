@@ -2,7 +2,7 @@
 layout: post
 title: "Supercharged Supernova!"
 date: 2005-08-11 19:43:00 -0000
-image: assets/images/archive/2005-08-11-supercharged-supernova.jpg
+image: assets/images/archive/2005-08-11-supercharged-supernova.png
 ---
 
 Everything is furiously blinding and fucking awesome! [Song in Ear :: City Of blinding light-U2 ::: Supercharged Supernova!...I AM BACK!]  

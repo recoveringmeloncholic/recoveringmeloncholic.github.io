@@ -2,7 +2,7 @@
 layout: post
 title: "Dedicated to GOD"
 date: 2005-08-11 20:01:00 -0000
-image: assets/images/archive/2005-08-11-dedicated-to-god.jpg
+image: assets/images/archive/2005-08-11-dedicated-to-god.png
 ---
 
 dedicated to :: GOD

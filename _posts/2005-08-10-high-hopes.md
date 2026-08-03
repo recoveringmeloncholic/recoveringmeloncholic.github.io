@@ -2,7 +2,7 @@
 layout: post
 title: "High Hopes!"
 date: 2005-08-10 05:07:00 -0000
-image: assets/images/archive/2005-08-10-high-hopes.jpg
+image: assets/images/archive/2005-08-10-high-hopes.png
 ---
 
 two post in a single day!? Who would believe it. Did i not say already, i'll be lucky to get through the day. Am already here. been waiting for i-net to come. to write what??  
