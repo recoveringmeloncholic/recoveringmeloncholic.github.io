@@ -2,7 +2,7 @@
 layout: post
 title: "Random Garbage of usual day"
 date: 2005-08-08 19:35:00 -0000
-image: # TODO: no image in the original post — add one manually
+image: assets/images/archive/2005-08-08-random-garbage.png
 ---
 
 Song in my ears ::  "Tequila Sunrise" by "Eagles". And sure they are one of the best bands of all times. My fav. include Pink Floyd, U2 and lot more. Just usual bus journey to office.
