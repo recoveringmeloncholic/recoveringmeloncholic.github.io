@@ -2,7 +2,7 @@
 layout: post
 title: "Only for strangers...."
 date: 2005-08-14 04:12:00 -0000
-image: assets/images/archive/2005-08-14-only-for-strangers.jpg
+image: assets/images/archive/2005-08-14-only-for-strangers.png
 ---
 
 And these are the fucking reasons why anyone would think i am "**WEIRD**"

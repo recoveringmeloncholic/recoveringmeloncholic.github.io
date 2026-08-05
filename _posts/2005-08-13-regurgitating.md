@@ -2,7 +2,7 @@
 layout: post
 title: "Regurgitating....."
 date: 2005-08-13 22:09:00 -0000
-image: assets/images/archive/2005-08-13-regurgitating.jpg
+image: assets/images/archive/2005-08-13-regurgitating.png
 ---
 
 [Song :: Where's my mind - Pixies ::: Feel Insane!]  

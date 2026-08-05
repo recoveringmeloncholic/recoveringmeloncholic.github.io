@@ -2,7 +2,7 @@
 layout: post
 title: "Anniversary of decay...."
 date: 2005-08-13 23:08:00 -0000
-image: assets/images/archive/2005-08-13-anniversary-of-decay.jpg
+image: assets/images/archive/2005-08-13-anniversary-of-decay.png
 ---
 
 I have never been good with calender dates, especially when, all of them look same to me. What difference has anything made ever... i am still the same. Broken, cramped, fake-smiled and "decaying" ... [Song:: Pixies blasting in ears still with - where's my mind!! and that is exactly how i feel!]
