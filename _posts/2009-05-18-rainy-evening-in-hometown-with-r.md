@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Rainy evening in hometown with R."
+date: 2009-05-18 02:41:00 -0000
+image: assets/images/archive/2009-05-18-rainy-evening-in-hometown-with-r.jpg
+---
+
+It's a pity that I decided to start my dream diary so late in the day. I have forgotten most of the dream that I found myself in, for large part of today morning. I'll try to keep it as vivid as possible; I want to be able to recall it back when I need to in future. :)
+
+I was somewhere at R's home in pune. It's hard to recollect now but there was some frenzy in my head because I wanted to go out with her; but was apprehensive as I was worried someone I know will see me. I can't exactly recall who was it. Nevertheless dream drudged along and I eventually found myself in our home in my hometown. It's funny that people are probably care about least still manage to popup in my dreams.
+
+I saw one of the domestic help from long ago and dormitory mate. They were at house. My parents wanted to make a trip to ramghaat. They had my car, but we needed a driver. I was trying to arrange for a driver. I would have drove them; but then I would have lost my already slim chance of meeting R. I wanted to meet her so bad; that I convinced them that I have a late dinner with friends from my previous employer (which I had left recently). They agreed and I justified it in detail to my mom why I would be late in returning in night. She seemed to agree to it.
+
+Before we went out looking for a driver, I also remember there was a sequence where R is with me in house and I am chit chatting with her while eventually my mom mustred up the courage to ask, "she is the girl isn't it?". I said, yes, she is the one. She said nothing. I felt like it was a silent retreat from her drawn up lines of stubborness, but there was nothing else to assure me of that.
+
+Eventually we went out for finding a driver. I was excited to find more time to spend with R, after a whole day of lazing around with her at home. It was really enticing. While we were out on road; it was all flooded and covered in water. We had to find the guy and we eventually did. My parents left with him and convinced I came back home to proceed with the plan. I wanted to pick up R and go to hometime to have a quite dinner and spend some time with her.
+
+When I came back home, I remember my laptop was working and so was internet however there was no power and I was sitting in a lamp, in verandah, while it continued to drizzle.
+
+Some people were gossiping about how I may now go out with R and with each statement of gossip I over heard I was feeling more uncomfortable. I somehow started convincing myself that it would be probably for good to stay at home and let these talks melt away as pointless assumptions; but then I didn't want to waste the oppurtunity too.
+
+It was such a push and pull inside. I saw a message popup from a cousin, who was asking me her logging name because I had left her a message that if she forgets it, she must call me and ask about it.
+
+Funny, she messaged me twice and I didn't reply, so she pinged. And thats about when I think I wandered away from retaining anything. I don't know if that was the end of dream or if thats all I manage to remember.
+
+All I know is that while I was half awake I had it all still very fresh in my mind; but as soon as I opened my eyes, so much of it got lost. I was thinking and wishing badly that whole of it would come back. :) But it didn't.
+
+Next time onwards I'll post my dreams here directly. Hope it'll be fun to read later. I get so many dreams in any case.
+
+More later.

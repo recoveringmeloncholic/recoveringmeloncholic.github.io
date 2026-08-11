@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="  “We write to taste life twice, in the moment and in retrospect.”  — Anaïs Nin">
+</head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1J6QPDPEHQ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1J6QPDPEHQ');
+</script>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Writing</h1>
+        <div class="post-meta">
+            <time datetime="2026-07-13T18:00:00+00:00">
+                July 13, 2026
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/writing.png" alt="Writing" class="post-featured-image">
+    
+
+    <div class="post-body">
+        <blockquote>
+  <p>“We write to taste life twice, in the moment and in retrospect.”</p>
+
+  <p>— Anaïs Nin</p>
+</blockquote>
+
+<p>I have been divided about using this space as an event journal for a while. But every time the thought occured, I shrugged it off. Primarily because absence of frequent intoxication leaves mind lucid and cogent; except the days when you step out to get some Kombucha and retrun with cider! Such is life. I was going to write about how I feel today. But I realized it doesn’t matter. Instead, I can use this place to document some of my most vivid memories from life. Something that I’d want to look back as my hold on my mind slips.</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2025/11/21/holdon/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Hold On</h3>
+            <p class="post-nav-excerpt">Something, that was sent to me by the most unexpected person today. That I know needs to be said atleast...</p>
+        </a>
+        
+
+        
+        <a href="/2026/07/15/inflection-point/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Inflection Point</h3>
+            <p class="post-nav-excerpt">This entry is about the inflection point in my life. Regurgitating the day, that had a ripple effect on my...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>
