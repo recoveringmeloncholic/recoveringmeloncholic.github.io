@@ -9,51 +9,144 @@ layout: default
     </div>
 </header>
 
-<main class="site-main">
-    <div class="post-feed">
-        {% for post in site.posts %}
-        {% assign isEven = forloop.index | modulo: 2 %}
-        <article class="post-card {% if isEven == 0 %}post-card-reverse{% endif %}">
-            <a href="{{ post.url | relative_url }}" class="post-card-image-link">
-                {% if post.image %}
-                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image">
-                {% endif %}
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% assign global_index = 0 %}
+
+<aside class="archive-nav">
+    <ul class="archive-nav-list">
+        {% for year in posts_by_year %}
+        <li>
+            <a href="#year-{{ year.name }}" class="archive-nav-link" data-year="year-{{ year.name }}">
+                {{ year.name }}
             </a>
-            <div class="post-card-content">
-                <a href="{{ post.url | relative_url }}" class="post-card-content-link">
-                    <header class="post-card-header">
-                        <h2 class="post-card-title">{{ post.title }}</h2>
-                    </header>
-                    <p class="post-card-excerpt">
-                        {{ post.excerpt | strip_html | truncatewords: 30 }}
-                    </p>
-                    <footer class="post-card-meta">
-                        <time datetime="{{ post.date | date_to_xmlschema }}">
-                            {{ post.date | date: "%b %d, %Y" }}
-                        </time>
-                        <span class="reading-time">• 1 min read</span>
-                    </footer>
+        </li>
+        {% endfor %}
+    </ul>
+</aside>
+
+<main class="site-main">
+    <div class="post-feed" id="post-feed">
+        {% for year in posts_by_year %}
+        <section class="year-group" id="year-{{ year.name }}">
+            {% for post in year.items %}
+            {% assign global_index = global_index | plus: 1 %}
+            {% assign isEven = global_index | modulo: 2 %}
+            <article class="post-card lazy-card {% if isEven == 0 %}post-card-reverse{% endif %}">
+                <a href="{{ post.url | relative_url }}" class="post-card-image-link">
+                    {% if post.image %}
+                    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image" loading="lazy">
+                    {% endif %}
                 </a>
-            </div>
-        </article>
+                <div class="post-card-content">
+                    <a href="{{ post.url | relative_url }}" class="post-card-content-link">
+                        <header class="post-card-header">
+                            <h2 class="post-card-title">{{ post.title }}</h2>
+                        </header>
+                        <p class="post-card-excerpt">
+                            {{ post.excerpt | strip_html | truncatewords: 30 }}
+                        </p>
+                        <footer class="post-card-meta">
+                            <time datetime="{{ post.date | date_to_xmlschema }}">
+                                {{ post.date | date: "%b %d, %Y" }}
+                            </time>
+                            <span class="reading-time">• 1 min read</span>
+                        </footer>
+                    </a>
+                </div>
+            </article>
+            {% endfor %}
+        </section>
         {% endfor %}
     </div>
-
-    {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-        {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Newer</a>
-        {% else %}
-        <span>&laquo; Newer</span>
-        {% endif %}
-
-        <span class="current">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-        {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | relative_url }}">Older &raquo;</a>
-        {% else %}
-        <span>Older &raquo;</span>
-        {% endif %}
-    </div>
-    {% endif %}
 </main>
+
+<script>
+(function () {
+    var feed = document.getElementById('post-feed');
+    if (!feed) return;
+
+    var cards = Array.prototype.slice.call(feed.querySelectorAll('.post-card'));
+    var yearSections = Array.prototype.slice.call(document.querySelectorAll('.year-group'));
+    var navLinks = Array.prototype.slice.call(document.querySelectorAll('.archive-nav-link'));
+    var BATCH_SIZE = 8;
+    var revealed = 0;
+    var sentinelObserver;
+
+    // Keep the mobile archive bar flush under the real top nav, whatever its height is.
+    var topNav = document.querySelector('.top-nav');
+    if (topNav) {
+        var setTopNavHeight = function () {
+            document.documentElement.style.setProperty('--top-nav-height', topNav.offsetHeight + 'px');
+        };
+        setTopNavHeight();
+        window.addEventListener('resize', setTopNavHeight);
+    }
+
+    function revealNextBatch() {
+        var next = cards.slice(revealed, revealed + BATCH_SIZE);
+        next.forEach(function (card) { card.classList.add('is-visible'); });
+        revealed += next.length;
+        if (revealed >= cards.length && sentinelObserver) {
+            sentinelObserver.disconnect();
+        }
+    }
+
+    if (!('IntersectionObserver' in window)) {
+        // No IntersectionObserver support: just show everything.
+        cards.forEach(function (card) { card.classList.add('is-visible'); });
+        revealed = cards.length;
+    } else {
+        revealNextBatch();
+
+        var sentinel = document.createElement('div');
+        sentinel.className = 'feed-sentinel';
+        feed.appendChild(sentinel);
+
+        sentinelObserver = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) revealNextBatch();
+            });
+        }, { rootMargin: '600px 0px' });
+        sentinelObserver.observe(sentinel);
+    }
+
+    // Scrollspy: highlight the archive nav link for the year currently in view.
+    if (navLinks.length && yearSections.length) {
+        var linkByYear = {};
+        navLinks.forEach(function (link) { linkByYear[link.dataset.year] = link; });
+
+        if ('IntersectionObserver' in window) {
+            var spyObserver = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    var link = linkByYear[entry.target.id];
+                    if (!link || !entry.isIntersecting) return;
+                    navLinks.forEach(function (l) { l.classList.remove('active'); });
+                    link.classList.add('active');
+                });
+            }, { rootMargin: '-40% 0px -55% 0px' });
+
+            yearSections.forEach(function (section) { spyObserver.observe(section); });
+        }
+
+        navLinks.forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                var targetId = link.getAttribute('href').slice(1);
+                var target = document.getElementById(targetId);
+                if (!target) return;
+
+                // Make sure every card up to and including the target year is revealed
+                // before jumping, otherwise the page can't scroll far enough yet.
+                var targetIndex = yearSections.indexOf(target);
+                var cardsNeeded = 0;
+                for (var i = 0; i <= targetIndex; i++) {
+                    cardsNeeded += yearSections[i].querySelectorAll('.post-card').length;
+                }
+                while (revealed < cardsNeeded) revealNextBatch();
+
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+    }
+})();
+</script>

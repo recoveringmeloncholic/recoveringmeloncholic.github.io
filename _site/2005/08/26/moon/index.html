@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon... - Recovering melancholic</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="this world is an asylumand i am the loonwith flawless stars shiningi am the spotted moon.">
+</head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1J6QPDPEHQ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1J6QPDPEHQ');
+</script>
+<body class="">
+    <nav class="top-nav">
+        <div class="nav-container">
+            <ul class="nav-left">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="post-content">
+    <header class="post-header">
+        <h1 class="post-title">Moon...</h1>
+        <div class="post-meta">
+            <time datetime="2005-08-26T05:54:00+00:00">
+                August 26, 2005
+            </time>
+        </div>
+    </header>
+
+    
+    <img src="/assets/images/archive/2005-08-26-moon.png" alt="Moon..." class="post-featured-image">
+    
+
+    <div class="post-body">
+        <p>this world is an asylum<br />
+and i am the loon<br />
+with flawless stars shining<br />
+i am the spotted moon.</p>
+
+<p>i may be one of my kind<br />
+huddled in sky so dark and blue<br />
+waiting to eternity for that smile<br />
+but my dreams never come true!!</p>
+
+<p>hate u life… such a bitch u are…</p>
+
+    </div>
+</article>
+
+<nav class="post-navigation">
+    <div class="post-nav-container">
+        
+        <a href="/2005/08/21/wait/" class="post-nav-item post-nav-prev">
+            <div class="post-nav-label">← Previous Post</div>
+            <h3 class="post-nav-title">Wait...</h3>
+            <p class="post-nav-excerpt">will you wait for me…? i hope u do.
+</p>
+        </a>
+        
+
+        
+        <a href="/2005/09/05/hero-of-day/" class="post-nav-item post-nav-next">
+            <div class="post-nav-label">Next Post →</div>
+            <h3 class="post-nav-title">Hero of the day...</h3>
+            <p class="post-nav-excerpt">Song in ear ::: Hero of the day :: Metallica :: Feel bored And probably I’ll be the hero of...</p>
+        </a>
+        
+    </div>
+</nav>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Recovering melancholic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle navbar transparency on homepage
+        if (document.body.classList.contains('home-page')) {
+            const nav = document.querySelector('.top-nav');
+            const heroSection = document.querySelector('.hero-section');
+
+            if (nav && heroSection) {
+                // Function to handle scroll
+                function handleScroll() {
+                    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+                    const scrollPosition = window.scrollY;
+
+                    if (scrollPosition > heroBottom - nav.offsetHeight) {
+                        nav.classList.add('scrolled');
+                    } else {
+                        nav.classList.remove('scrolled');
+                    }
+                }
+
+                // Listen to scroll events
+                window.addEventListener('scroll', handleScroll);
+
+                // Call once on load
+                handleScroll();
+            }
+        }
+    </script>
+</body>
+</html>
