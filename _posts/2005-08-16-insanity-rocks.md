@@ -2,7 +2,7 @@
 layout: post
 title: "INSANITY ROCKS!!"
 date: 2005-08-16 19:59:00 -0000
-image: assets/images/archive/2005-08-16-insanity-rocks.jpg
+image: assets/images/archive/2005-08-16-insanity-rocks.png
 ---
 
 Wild!! Thats how i feel ... though [Song in Ear ::: Till Kingdom comes - Coldplay ::: Feeling.. ummm.. maybe, little down and blue. But not really bad] day hasn't started all that awesome!  
