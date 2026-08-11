@@ -2,7 +2,7 @@
 layout: post
 title: "Life has paid off...."
 date: 2005-08-17 20:11:00 -0000
-image: assets/images/archive/2005-08-17-life-has-paid-off.jpg
+image: assets/images/archive/2005-08-17-life-has-paid-off.png
 ---
 
 it's a wierd mind full of scum,  

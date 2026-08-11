@@ -2,7 +2,7 @@
 layout: post
 title: "swimming in tears"
 date: 2005-08-16 19:51:00 -0000
-image: assets/images/archive/2005-08-16-swimming-in-tears.gif
+image: assets/images/archive/2005-08-16-swimming-in-tears.png
 ---
 
 i am just another fish in bowl, alas!  
