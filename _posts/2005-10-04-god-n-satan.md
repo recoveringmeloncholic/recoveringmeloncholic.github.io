@@ -2,7 +2,7 @@
 layout: post
 title: "God 'n' Satan"
 date: 2005-10-04 06:18:00 -0000
-image: assets/images/archive/2005-10-04-god-n-satan.jpg
+image: assets/images/archive/2005-10-04-god-n-satan.png
 ---
 
 The bright blue fire  

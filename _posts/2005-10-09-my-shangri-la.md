@@ -2,7 +2,7 @@
 layout: post
 title: "My Shangri-La"
 date: 2005-10-09 03:50:00 -0000
-image: assets/images/archive/2005-10-09-my-shangri-la.jpg
+image: assets/images/archive/2005-10-09-my-shangri-la.png
 ---
 
 <u><strong>Kula shaker - Govinda</strong></u>  

@@ -5,16 +5,16 @@ date: 2005-11-26 21:18:00 -0000
 image: assets/images/archive/2005-11-26-look-what-have-i-done.jpg
 ---
 
-Morning!  
-[Well, it isn't good, so kinda avoided that part!]  
-[Song in ears :: Long Road :: Feel like a bug on the windshield of this world; moments away before I am turned into a over-beaten pulp of blood and flesh [sigh..] ]
+Morning.  
+[Not a good one — so I'll skip that part.]  
+[Song in my ears :: Long Road :: I feel like a bug on this world's windshield, moments from being smeared into a pulp of blood and flesh. [sigh..] ]
 
 **Look what have I done.**  
-I am not the guy who would rot away in guilt and regret for something that is remotely related to "emotions & feelings". I am not a guy, who would bear the hang over of small, impulsive night or moment, for rest of his life. And I am definitely not a guy would fall in love with a girl, he touches for first time.  
-No. Instead I am one of those, who'd decay becuase, they acted like a "miserable eccentric pig", with no feelings obviously. Damn, I am so ashamed of myself.
+I'm not the kind of guy who rots away in guilt and regret over anything tangled up in "emotions and feelings." I'm not the kind who carries the hangover of one small, impulsive night for the rest of his life. And I'm certainly not the kind who falls for a girl the first time he touches her.  
+No — instead, I'm the kind who decays from the inside, because I acted like a miserable, eccentric pig, with no feelings at all. Damn. I'm so ashamed of myself.
 
-What in the fucking world will I tell her. Now there is all the more reason to believe that she never calls, she never see me and she forgets; about all that is me and mine. She'll be happier. I'll be relieved. I won't have anyone to answer to.
+What in the world will I even tell her. There's every reason now to believe she'll never call, never see me again, and forget about everything that's mine. She'll be happier. I'll be relieved. I won't have to answer to anyone.
 
-**Dear phone; don't ring ever again.**
+**Dear phone — don't ever ring again.**
 
-I will mail now for an apology. But it's not going to clear my conscience. God, Please bless my miserable soul.
+I'll write an apology now. It won't clear my conscience, though. God, please have mercy on my miserable soul.

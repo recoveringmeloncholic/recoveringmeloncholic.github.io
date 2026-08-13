@@ -2,7 +2,7 @@
 layout: post
 title: "Re-claim your life...??"
 date: 2005-10-06 21:31:00 -0000
-image: assets/images/archive/2005-10-06-re-claim-your-life.jpg
+image: assets/images/archive/2005-10-06-re-claim-your-life.png
 ---
 
 **Reclaim your life?**  

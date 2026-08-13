@@ -5,23 +5,23 @@ date: 2005-08-07 18:00:00 -0000
 image: assets/images/monday.png
 ---
 
-All the way to office, while I was trapped in traffic: my thoughts were galloping, into that unknown side of my own world. As usual, thinking and making up all those stories. Sometimes I am so scared, what if I start hating her? Probably thats what I eventually want to do.  
-Feel sad for her and sometimes for myself too. Anyway, she is living off happily and thats what I ever wanted. But sad thing is, that I sacrificed everyone's happiness, including mine for her. Whats the point? I mean where I am going with that?  
+All the way to the office, trapped in traffic, my thoughts galloped off toward that unfamiliar side of myself — the one that keeps inventing stories, keeps rehearsing lives I haven't lived. Sometimes it scares me: what if I start hating her? Maybe that's what I've wanted all along.  
+I feel for her, and for myself too, in equal measure. She's living happily now, and that was always what I wanted for her. But it's a strange kind of sadness — I gave up everyone's happiness, including my own, to get her there. What was the point? Where was I even going with that?  
 
-It's been so messed up lately. It's just lil more time, when I am healed again to be bruised once more next year. :-)
+It's been a mess lately. Just a little more time before I'm healed enough to be broken again, right on schedule, next year. :-)
 
-Never mind. Today I'll probably be writing a poem in dedication to "Hiroshima" victims. I know, I am lil late, but I still want to make my point on that bulletin board. Though I know, not many read it. and next will be on "problems" world is dealing with it.
+Never mind that. Today I think I'll write a poem for the victims of Hiroshima — a little late, I know, but I still want to leave my mark on that bulletin board, even if hardly anyone reads it. The next one will be for the problems the world still hasn't solved.
 
-Anyway... thats all for today. I guess, I can start writing here every morning. Those who really want to look into my life, will definitly find me! :-)  
+Anyway — that's all for today. I think I'll start writing here every morning. Anyone who really wants to find their way into my life will manage it eventually. :-)  
 
-It's really sad what happend what happened few days back. I mean, I can't believe that they actually came to harrass my parents. They stopped the fucking prayer; and just get away with it so easily. I can see how easily each and every person is pushing around poor parents like that. I wish I was there, or if there is something I could do about it. I want to join kung-fu, so that when time is ripe, I kick the shit out of them. I know it's quite kiddish. Yet, I might need it someday, seeing what kind of people I have for relatives!! :-)  
+What happened a few days ago still sits heavy in me. I can't believe they came and harassed my parents — stopped their prayers mid-breath, and walked away as if it cost them nothing. I watched, powerless, while people pushed my parents around like they were nothing. I wish I'd been there, wish there were something, anything, I could have done. I want to learn kung-fu, so that when the moment comes, I can make them pay for it. Kiddish, I know. But given the relatives I've been dealt, I might need it someday!! :-)  
 
-My mom live under a continious fear that she or my dad might be killed someday. I am trying my best at my end. But sometimes I think, "Is that true? Am I really trying my best?" I know there are few things that are missing. Determination. Love and support in my life. Who cares! God, will sit and watch... and thats all it probably does all the time.  
+My mother lives under a constant fear that she or my father might be killed one day. I'm trying, at my end, as hard as I can. But sometimes I wonder — am I really trying my best? I know what's missing: determination, love, support. Who cares! God just sits and watches. That's about all He ever does.  
 
-Just usual day.  
+Just an ordinary day.  
 
-I have decided few things. First, no more girls as friends... anyway all they do is make life more complicated and tough. Second, trust no one, not even my room partner. Nobody gets what I actually want to say. He's too much over taken by his mania of hygiene and cleaniness, and instead of peaceful weekends, all I get is "ride to breakfast joint, when I don't want to. Cupboards to clean, when I like them the way they are. Bills for ironed clothes, while I prefer ironing them myself, just before wearing... and some million things." I want to shift alone, back to old life.  
+I've made a few decisions. First, no more girls as friends — all they ever do is complicate an already difficult life. Second, trust no one, not even my roommate. He never really hears what I'm saying, too consumed by his own mania for order and cleanliness. Instead of peaceful weekends, I get rides to a breakfast joint I never asked for, cupboards tidied the way he likes them and not the way I do, bills for ironing clothes I'd rather press myself, just before wearing them — a million small things like that. I want to move out, go back to living alone.  
 
-I can't afford it. :-| Anyway.. not that I am that desperate... cause otherwise we get on pretty well. It's just sometimes, I feel bugged and pushed over.  
+I can't afford it, though. :-| Not that I'm that desperate — we get on well enough, most of the time. It's just that sometimes I feel crowded, pushed to the edge of my own space.  
 
-More poems to come up here!! Will keep posting. I hope someone, or else keep reading it. and yet, no one I know. :-)  
+More poems are coming. I'll keep posting them, hoping someone out there keeps reading. And yet, as far as I know, no one does. :-)  

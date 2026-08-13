@@ -2,7 +2,7 @@
 layout: post
 title: "Online and Offline..."
 date: 2005-10-10 00:17:00 -0000
-image: assets/images/archive/2005-10-10-online-and-offline.jpg
+image: assets/images/archive/2005-10-10-online-and-offline.png
 ---
 
 <u><strong>Extract from "Big Yellow Taxi - Counting Crows"</strong></u>  
