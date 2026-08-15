@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creativity"
-date: 2026-08-14 14:00:00 -0000
+date: 2026-08-15 14:00:00 -0000
 image: assets/images/2026-08-15-creativity.png
 ---
 
