@@ -2,7 +2,7 @@
 layout: post
 title: "Life is calling, where are you?"
 date: 2006-01-21 22:32:00 -0000
-image: assets/images/archive/2006-01-21-life-is-calling-where-are-you.jpg
+image: assets/images/archive/2006-01-21-life-is-calling-where-are-you.png
 ---
 
 I read on the wall: **"Life is calling where are you?"**

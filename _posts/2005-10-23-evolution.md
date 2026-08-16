@@ -2,7 +2,7 @@
 layout: post
 title: "Evolution!"
 date: 2005-10-23 01:12:00 -0000
-image: assets/images/archive/2005-10-23-evolution.jpg
+image: assets/images/archive/2005-10-23-evolution.png
 ---
 
 I am evolving!  

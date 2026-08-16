@@ -2,7 +2,7 @@
 layout: post
 title: "Autum of my life."
 date: 2005-10-23 00:53:00 -0000
-image: assets/images/archive/2005-10-23-autum-of-my-life.jpg
+image: assets/images/archive/2005-10-23-autum-of-my-life.png
 ---
 
 The autums of my life  

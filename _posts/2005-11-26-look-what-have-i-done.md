@@ -2,7 +2,7 @@
 layout: post
 title: "Look what have I done."
 date: 2005-11-26 21:18:00 -0000
-image: assets/images/archive/2005-11-26-look-what-have-i-done.jpg
+image: assets/images/archive/2005-11-26-look-what-have-i-done.png
 ---
 
 Morning.  

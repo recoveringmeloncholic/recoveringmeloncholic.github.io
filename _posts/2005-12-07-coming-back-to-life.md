@@ -2,7 +2,7 @@
 layout: post
 title: "Coming Back To Life..."
 date: 2005-12-07 23:54:00 -0000
-image: assets/images/archive/2005-12-07-coming-back-to-life.jpg
+image: assets/images/archive/2005-12-07-coming-back-to-life.png
 ---
 
 I haven't been so happy and content in a long while. It's one of those rare days, when I feel "happy - enough" to come here and let the "void" know.  

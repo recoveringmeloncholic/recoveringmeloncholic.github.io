@@ -2,7 +2,7 @@
 layout: post
 title: "Momentory Lapse Of Reason...."
 date: 2006-01-05 03:58:00 -0000
-image: assets/images/archive/2006-01-05-momentory-lapse-of-reason.jpg
+image: assets/images/archive/2006-01-05-momentory-lapse-of-reason.png
 ---
 
 Am just old confetti on the floor,  
