@@ -5,7 +5,7 @@ date: 2026-08-15 14:00:00 -0000
 image: assets/images/2026-08-15-creativity.png
 ---
 
-I was maybe 14 years old. A hot summer afternoon, there was no electricity. So I was as usual lying on a bed in the verandah and racking my brain for something to occupy my time. My most natural recourse was books. Unfortunately, I had read most of the interesting ones, some of them multiple times. However, I decided to sift through the collection one more time. 
+I was maybe 14 years old or so. A hot summer afternoon, there was no electricity. So I was as usual lying on a bed in the verandah and racking my brain for something to occupy my time. My most natural recourse was books. Unfortunately, I had read most of the interesting ones, some of them multiple times. However, I decided to sift through the collection one more time. 
 
 [This arcane book right here](https://archive.org/details/Nanhe-munnoKeLiyeBhautiki/mode/2up) caught my eye. And among all the science experiments it had, I was taken up by [this particular one](https://archive.org/details/Nanhe-munnoKeLiyeBhautiki/page/n87/mode/2up).
 
