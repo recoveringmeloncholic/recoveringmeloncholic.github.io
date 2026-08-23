@@ -368,6 +368,12 @@ h1, h2, h3, p {
   line-height: 1.7;
 }
 
+.post-comments {
+  margin-top: 80px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .post-body h2 {
   font-size: 36px;
   font-weight: 700;

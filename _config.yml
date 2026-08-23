@@ -14,6 +14,13 @@ collections:
     output: true
     permalink: /:year/:month/:day/:title/
 
+# Comments (giscus - https://giscus.app)
+giscus:
+  repo: "recoveringmeloncholic/recoveringmeloncholic.github.io"
+  repo_id: "R_kgDOLKuv0g"
+  category: "Comments"
+  category_id: "DIC_kwDOLKuv0s4DEARY"
+
 # Exclude from processing
 exclude:
   - Gemfile
