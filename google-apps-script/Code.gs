@@ -3,7 +3,12 @@
 // (Extensions > Apps Script from within the sheet), then deploy it
 // as a Web App (Execute as: Me, Who has access: Anyone).
 //
-// Expected sheet header row (row 1): timestamp | post | title | name | comment
+// Expected sheet header row (row 1): timestamp | post | title | name | comment | ip
+//
+// The commenter's IP is self-reported by their browser (via a public IP
+// lookup service) and stored here for moderation reference only — it is
+// intentionally never returned by doGet, so the public read API never
+// republishes visitor IPs.
 
 var SHEET_NAME = 'Comments';
 
@@ -43,12 +48,13 @@ function doPost(e) {
   var title = String(data.title || '').slice(0, 200);
   var name = String(data.name || 'Anonymous').slice(0, 50);
   var comment = String(data.comment || '').slice(0, 1000);
+  var ip = String(data.ip || '').slice(0, 45);
 
   if (!post || !comment) {
     return respond({ ok: false, error: 'Missing post or comment' });
   }
 
-  sheet.appendRow([new Date().toISOString(), post, title, name, comment]);
+  sheet.appendRow([new Date().toISOString(), post, title, name, comment, ip]);
 
   return respond({ ok: true });
 }

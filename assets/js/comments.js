@@ -34,6 +34,13 @@
     }
   }
 
+  function resolveClientIp() {
+    return fetch('https://api.ipify.org?format=json')
+      .then(function (res) { return res.json(); })
+      .then(function (data) { return (data && data.ip) ? data.ip : ''; })
+      .catch(function () { return ''; });
+  }
+
   function escapeHtml(str) {
     var div = document.createElement('div');
     div.textContent = str == null ? '' : String(str);
@@ -113,11 +120,15 @@
       timestamp: new Date().toISOString()
     };
 
-    fetch(API_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-      body: JSON.stringify(payload)
-    })
+    resolveClientIp()
+      .then(function (ip) {
+        payload.ip = ip;
+        return fetch(API_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify(payload)
+        });
+      })
       .then(function (res) { return res.json(); })
       .then(function (res) {
         if (!res || res.ok === false) throw new Error(res && res.error);
