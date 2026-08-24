@@ -20,25 +20,35 @@ layout: default
         {{ content }}
     </div>
 
-    <section class="post-comments">
-        <script src="https://giscus.app/client.js"
-            data-repo="{{ site.giscus.repo }}"
-            data-repo-id="{{ site.giscus.repo_id }}"
-            data-category="{{ site.giscus.category }}"
-            data-category-id="{{ site.giscus.category_id }}"
-            data-mapping="pathname"
-            data-strict="0"
-            data-reactions-enabled="1"
-            data-emit-metadata="0"
-            data-input-position="top"
-            data-theme="dark_dimmed"
-            data-lang="en"
-            data-loading="lazy"
-            crossorigin="anonymous"
-            async>
-        </script>
+    <section class="post-comments" id="comments"
+        data-post-id="{{ page.url }}"
+        data-post-title="{{ page.title | escape }}"
+        data-api-url="{{ site.comments.api_url }}">
+        <h2 class="comments-heading">Comments</h2>
+
+        <div class="comments-list" id="comments-list">
+            <p class="comments-loading">Loading comments…</p>
+        </div>
+
+        <form class="comment-form" id="comment-form">
+            <div class="comment-form-row">
+                <input type="text" id="comment-name" name="name" placeholder="Name" maxlength="50" required>
+            </div>
+            <div class="comment-form-row">
+                <textarea id="comment-text" name="comment" placeholder="Write a comment…" maxlength="1000" rows="4" required></textarea>
+            </div>
+            <div class="comment-honeypot" aria-hidden="true">
+                <input type="text" id="comment-website" name="website" tabindex="-1" autocomplete="off">
+            </div>
+            <div class="comment-form-row comment-form-actions">
+                <button type="submit" class="comment-submit" id="comment-submit">Post Comment</button>
+                <span class="comment-status" id="comment-status"></span>
+            </div>
+        </form>
     </section>
 </article>
+
+<script src="{{ '/assets/js/comments.js' | relative_url }}" defer></script>
 
 <nav class="post-navigation">
     <div class="post-nav-container">

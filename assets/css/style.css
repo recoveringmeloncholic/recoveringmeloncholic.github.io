@@ -374,6 +374,124 @@ h1, h2, h3, p {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.comments-heading {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.comment-item {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.comment-item-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.comment-author {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.comment-date {
+  color: var(--secondary-text-color);
+  margin-left: auto;
+}
+
+.comment-text {
+  color: var(--secondary-text-color);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.comments-empty,
+.comments-loading {
+  color: var(--secondary-text-color);
+  font-size: 15px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.comment-form-row input[type="text"],
+.comment-form-row textarea {
+  width: 100%;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-color);
+  font-family: inherit;
+  font-size: 15px;
+  resize: vertical;
+  transition: border-color 0.2s ease;
+}
+
+.comment-form-row input[type="text"]:focus,
+.comment-form-row textarea:focus {
+  outline: none;
+  border-color: var(--ghost-accent-color);
+}
+
+.comment-honeypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.comment-form-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.comment-submit {
+  align-self: flex-start;
+  padding: 12px 28px;
+  background-color: var(--ghost-accent-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.comment-submit:hover {
+  opacity: 0.85;
+}
+
+.comment-submit:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.comment-status {
+  font-size: 14px;
+  color: var(--secondary-text-color);
+}
+
 .post-body h2 {
   font-size: 36px;
   font-weight: 700;
