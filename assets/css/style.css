@@ -325,8 +325,14 @@ h1, h2, h3, p {
   margin-top: 0;
 }
 
-.reading-time {
+.reading-time,
+.comment-count {
   color: rgba(160, 160, 160, 0.7);
+}
+
+.comment-count.has-comments {
+  color: var(--gradient-end);
+  font-weight: 600;
 }
 
 /* Single Post */
