@@ -5,10 +5,10 @@ date: 2026-09-14 4:00:00 -0000
 image: assets/images/2026-09-14-doppleganger.png
 ---
 
-I had an AI generated profile pic for a bit. It has omitted some key features on my face. Chipped tooth, actually teeth, since I have chipped another one with a guava seed! A mole on my chin and several other things. 
+For a while I ran an AI-generated profile picture. It smoothed over a few key details: my chipped tooth (well, teeth now, since I chipped a second one on a guava seed), the mole on my chin, and a handful of other small imperfections.
 
-I left it as a fun execise for people close to me to spot the AI image and ping me. Surprisingly, no one did for 3 weeks, except one collegue. We were chatting about her upcoming conference talk and the support required for travel etc. And out of the blue she says, "BTW, whats with the AI profile pic?". I was totally taken aback and I said, how did you know?
+I left it up as a little experiment, half hoping someone close to me would notice and call it out. For three weeks, nobody did, except one colleague. We were mid-conversation about her upcoming conference talk, sorting out travel support, when out of nowhere she said, "BTW, what's with the AI profile pic?" I was floored. "How did you know?" I asked.
 
-I was shocked that someone who I see and talk to maybe once a month was able to spot it. To be fair if it wasn't for tooth and mole I would not be able to tell the difference, but to be fair I also don't look at myself that often. 😛
+What got me was that this is someone I see and talk to maybe once a month. To be fair, if it weren't for the tooth and the mole, even I might not have caught the difference, though in my defense, I also don't stare at my own face all that often. 😛
 
-I can probaly think of only one more person who could have spotted it. I am sort of certain she would have been the first.
+I can think of maybe one more person who could've spotted it. And I'm fairly certain she'd have beaten everyone else to it.
