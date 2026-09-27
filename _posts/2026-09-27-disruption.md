@@ -25,5 +25,5 @@ How do I tell her that I'll always be here for her, but that I want her to go fi
 >  
 > I must find way from this treacherous light,  
 > with only a false promise to make.  
-> There is nothing real for me here, 
+> There is nothing real for me here,  
 > only carnage and recurring heartbreak.  
