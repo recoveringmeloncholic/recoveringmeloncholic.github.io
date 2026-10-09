@@ -5,9 +5,9 @@ date: 2026-10-09 3:00:00 -0000
 image: assets/images/2026-10-09-fish-and-prawns.png
 ---
 
-Had Mackerel and Prawns for lunch! Reminded me of all the love she use to put while making them for me. Both of them were not even close to how she prepared them, but they were nice. I love eating both. 
+Had mackerel and prawns for lunch today, and it brought back all the love she used to pour into making them for me. Neither dish came close to how she used to make them, but they were good in their own right. I love eating both.
 
-Sea, Prawns and Mackerel. I realize, it is not the things you love doing or eating, it is the people you love doing or eating with.
+Sea, prawns, mackerel. I'm realizing it was never really about the things you love doing or eating. It's about the people you love doing or eating them with.
 
-It would be nice to eat a meal together sometime.
+It would be nice to share a meal together again sometime.
 
